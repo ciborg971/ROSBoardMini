@@ -1,32 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Lyontek_psram_LY68L6400SLIT
+# +1V2-power
 #
-DEF Lyontek_psram_LY68L6400SLIT U 0 40 Y Y 1 F N
-F0 "U" -300 350 50 H V C CNN
-F1 "Lyontek_psram_LY68L6400SLIT" -350 450 50 H V C CNN
-F2 "" -50 -50 50 H I C CNN
-F3 "" -50 -50 50 H I C CNN
-ALIAS LY68S3200SLT
-DRAW
-S 400 300 -350 -300 0 1 0 N
-X ~CE 1 -550 150 200 R 50 50 1 1 I
-X SO/SIO1 2 600 50 200 L 50 50 1 1 B
-X SIO2 3 600 -50 200 L 50 50 1 1 B
-X Vss 4 0 -500 200 U 50 50 1 1 W
-X SI/SIO0 5 600 150 200 L 50 50 1 1 B
-X SCLK 6 -550 -50 200 R 50 50 1 1 I
-X SIO3 7 600 -150 200 L 50 50 1 1 B
-X VCC 8 0 500 200 D 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# ROSBoardMini-rescue_+1V2-power
-#
-DEF ROSBoardMini-rescue_+1V2-power #PWR 0 0 Y Y 1 F P
+DEF +1V2-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "ROSBoardMini-rescue_+1V2-power" 0 140 50 H V C CNN
+F1 "+1V2-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -37,11 +16,11 @@ X +1V2 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_+1V8-power
+# +1V8-power
 #
-DEF ROSBoardMini-rescue_+1V8-power #PWR 0 0 Y Y 1 F P
+DEF +1V8-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "ROSBoardMini-rescue_+1V8-power" 0 140 50 H V C CNN
+F1 "+1V8-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -52,11 +31,11 @@ X +1V8 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_+2V8-power
+# +2V8-power
 #
-DEF ROSBoardMini-rescue_+2V8-power #PWR 0 0 Y Y 1 F P
+DEF +2V8-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "ROSBoardMini-rescue_+2V8-power" 0 140 50 H V C CNN
+F1 "+2V8-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -67,11 +46,11 @@ X +2V8 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_+3.3V-power
+# +3.3V-power
 #
-DEF ROSBoardMini-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
+DEF +3.3V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "ROSBoardMini-rescue_+3.3V-power" 0 140 50 H V C CNN
+F1 "+3.3V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -82,11 +61,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_+5V-power
+# +5V-power
 #
-DEF ROSBoardMini-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+DEF +5V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "ROSBoardMini-rescue_+5V-power" 0 140 50 H V C CNN
+F1 "+5V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -97,11 +76,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_+BATT-power
+# +BATT-power
 #
-DEF ROSBoardMini-rescue_+BATT-power #PWR 0 0 Y Y 1 F P
+DEF +BATT-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "ROSBoardMini-rescue_+BATT-power" 0 140 50 H V C CNN
+F1 "+BATT-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -112,11 +91,11 @@ X +BATT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_24LC256-Memory_EEPROM
+# 24LC256-Memory_EEPROM
 #
-DEF ROSBoardMini-rescue_24LC256-Memory_EEPROM U 0 20 Y Y 1 F N
+DEF 24LC256-Memory_EEPROM U 0 20 Y Y 1 F N
 F0 "U" -250 250 50 H V C CNN
-F1 "ROSBoardMini-rescue_24LC256-Memory_EEPROM" 50 250 50 H V L CNN
+F1 "24LC256-Memory_EEPROM" 50 250 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -138,11 +117,11 @@ X VCC 8 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_AZ1117-1.2-Regulator_Linear
+# AZ1117-1.2-Regulator_Linear
 #
-DEF ROSBoardMini-rescue_AZ1117-1.2-Regulator_Linear U 0 10 Y Y 1 F N
+DEF AZ1117-1.2-Regulator_Linear U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "ROSBoardMini-rescue_AZ1117-1.2-Regulator_Linear" 0 125 50 H V L CNN
+F1 "AZ1117-1.2-Regulator_Linear" 0 125 50 H V L CNN
 F2 "" 0 250 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -160,11 +139,11 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_AZ1117-1.8-Regulator_Linear
+# AZ1117-1.8-Regulator_Linear
 #
-DEF ROSBoardMini-rescue_AZ1117-1.8-Regulator_Linear U 0 10 Y Y 1 F N
+DEF AZ1117-1.8-Regulator_Linear U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "ROSBoardMini-rescue_AZ1117-1.8-Regulator_Linear" 0 125 50 H V L CNN
+F1 "AZ1117-1.8-Regulator_Linear" 0 125 50 H V L CNN
 F2 "" 0 250 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -182,11 +161,11 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_AZ1117-2.85-Regulator_Linear
+# AZ1117-2.85-Regulator_Linear
 #
-DEF ROSBoardMini-rescue_AZ1117-2.85-Regulator_Linear U 0 10 Y Y 1 F N
+DEF AZ1117-2.85-Regulator_Linear U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "ROSBoardMini-rescue_AZ1117-2.85-Regulator_Linear" 0 125 50 H V L CNN
+F1 "AZ1117-2.85-Regulator_Linear" 0 125 50 H V L CNN
 F2 "" 0 250 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -204,11 +183,11 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_BME280-Sensor
+# BME280-Sensor
 #
-DEF ROSBoardMini-rescue_BME280-Sensor U 0 20 Y Y 1 F N
+DEF BME280-Sensor U 0 20 Y Y 1 F N
 F0 "U" -350 450 50 H V C CNN
-F1 "ROSBoardMini-rescue_BME280-Sensor" 300 450 50 H V C CNN
+F1 "BME280-Sensor" 300 450 50 H V C CNN
 F2 "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering" 1500 -450 50 H I C CNN
 F3 "" 0 -200 50 H I C CNN
 $FPLIST
@@ -227,11 +206,11 @@ X VDD 8 100 600 200 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_C-Device
+# C-Device
 #
-DEF ROSBoardMini-rescue_C-Device C 0 10 N Y 1 F N
+DEF C-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "ROSBoardMini-rescue_C-Device" 25 -100 50 H V L CNN
+F1 "C-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -245,11 +224,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_Conn_01x04_Female-Connector
+# Conn_01x04_Female-Connector
 #
-DEF ROSBoardMini-rescue_Conn_01x04_Female-Connector J 0 40 Y N 1 F N
+DEF Conn_01x04_Female-Connector J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "ROSBoardMini-rescue_Conn_01x04_Female-Connector" 0 -300 50 H V C CNN
+F1 "Conn_01x04_Female-Connector" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -271,11 +250,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_Conn_01x24_Female-Connector
+# Conn_01x24_Female-Connector
 #
-DEF ROSBoardMini-rescue_Conn_01x24_Female-Connector J 0 40 Y N 1 F N
+DEF Conn_01x24_Female-Connector J 0 40 Y N 1 F N
 F0 "J" 0 1200 50 H V C CNN
-F1 "ROSBoardMini-rescue_Conn_01x24_Female-Connector" 0 -1300 50 H V C CNN
+F1 "Conn_01x24_Female-Connector" 0 -1300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -357,11 +336,11 @@ X Pin_9 9 -200 300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_Conn_02x20_Odd_Even-Connector_Generic
+# Conn_02x20_Odd_Even-Connector_Generic
 #
-DEF ROSBoardMini-rescue_Conn_02x20_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_02x20_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 50 1000 50 H V C CNN
-F1 "ROSBoardMini-rescue_Conn_02x20_Odd_Even-Connector_Generic" 50 -1100 50 H V C CNN
+F1 "Conn_02x20_Odd_Even-Connector_Generic" 50 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -452,11 +431,11 @@ X Pin_9 9 -200 500 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_Crystal_GND23-Device
+# Crystal_GND23-Device
 #
-DEF ROSBoardMini-rescue_Crystal_GND23-Device Y 0 40 Y N 1 F N
+DEF Crystal_GND23-Device Y 0 40 Y N 1 F N
 F0 "Y" 125 200 50 H V L CNN
-F1 "ROSBoardMini-rescue_Crystal_GND23-Device" 125 125 50 H V L CNN
+F1 "Crystal_GND23-Device" 125 125 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -479,11 +458,11 @@ X 4 4 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_D-Device
+# D-Device
 #
-DEF ROSBoardMini-rescue_D-Device D 0 40 N N 1 F N
+DEF D-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "ROSBoardMini-rescue_D-Device" 0 -100 50 H V C CNN
+F1 "D-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -501,11 +480,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_GND-power
+# GND-power
 #
-DEF ROSBoardMini-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "ROSBoardMini-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -514,11 +493,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_ICM-20948-Sensor_Motion
+# ICM-20948-Sensor_Motion
 #
-DEF ROSBoardMini-rescue_ICM-20948-Sensor_Motion U 0 20 Y Y 1 F N
+DEF ICM-20948-Sensor_Motion U 0 20 Y Y 1 F N
 F0 "U" -450 650 50 H V C CNN
-F1 "ROSBoardMini-rescue_ICM-20948-Sensor_Motion" 300 -650 50 H V C CNN
+F1 "ICM-20948-Sensor_Motion" 300 -650 50 H V C CNN
 F2 "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm" 0 -1000 50 H I C CNN
 F3 "" 0 -150 50 H I C CNN
 $FPLIST
@@ -553,11 +532,11 @@ X SDO/AD0 9 -500 300 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_PCA9544APW-Interface_Expansion
+# PCA9544APW-Interface_Expansion
 #
-DEF ROSBoardMini-rescue_PCA9544APW-Interface_Expansion U 0 20 Y Y 1 F N
+DEF PCA9544APW-Interface_Expansion U 0 20 Y Y 1 F N
 F0 "U" -350 850 50 H V C CNN
-F1 "ROSBoardMini-rescue_PCA9544APW-Interface_Expansion" 300 850 50 H V C CNN
+F1 "PCA9544APW-Interface_Expansion" 300 850 50 H V C CNN
 F2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" 1100 -850 50 H I C CNN
 F3 "" -200 -1100 50 H I C CNN
 $FPLIST
@@ -588,11 +567,11 @@ X SC1 9 500 200 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_R-Device
+# R-Device
 #
-DEF ROSBoardMini-rescue_R-Device R 0 0 N Y 1 F N
+DEF R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "ROSBoardMini-rescue_R-Device" 0 0 50 V V C CNN
+F1 "R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -605,11 +584,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ROSBoardMini-rescue_W25Q128JVS-Memory_Flash
+# W25Q128JVS-Memory_Flash
 #
-DEF ROSBoardMini-rescue_W25Q128JVS-Memory_Flash U 0 20 Y Y 1 F N
+DEF W25Q128JVS-Memory_Flash U 0 20 Y Y 1 F N
 F0 "U" -350 350 50 H V C CNN
-F1 "ROSBoardMini-rescue_W25Q128JVS-Memory_Flash" 300 350 50 H V C CNN
+F1 "W25Q128JVS-Memory_Flash" 300 350 50 H V C CNN
 F2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -625,123 +604,6 @@ X DI(IO0) 5 500 200 100 L 50 50 1 1 B
 X CLK 6 -500 -100 100 R 50 50 1 1 I
 X IO3 7 500 -200 100 L 50 50 1 1 B
 X VCC 8 0 400 100 D 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# propeller2_P2X8C4M64P
-#
-DEF propeller2_P2X8C4M64P U 0 40 Y Y 3 L N
-F0 "U" 0 0 50 H V C CNN
-F1 "propeller2_P2X8C4M64P" 0 100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-T 0 350 300 50 0 1 0 "Boot pin" Normal 0 C C
-T 0 200 750 21 0 2 0 "VXXYY -> power for smart pins XX through YY" Normal 0 C C
-S -700 1050 800 -1050 3 0 0 N
-S -500 350 550 -400 1 1 0 N
-S -550 850 600 -1000 2 1 0 N
-X TEST 1 -600 200 100 R 50 50 1 1 I
-X RESN 100 -600 -100 100 R 50 50 1 1 I
-X XO 50 -600 100 100 R 50 50 1 1 O
-X XI 51 -600 0 100 R 50 50 1 1 I
-X P58 92 650 200 100 L 50 50 1 1 B
-X P59 93 650 100 100 L 50 50 1 1 B
-X P60 95 650 0 100 L 50 50 1 1 B
-X P61 96 650 -100 100 L 50 50 1 1 B
-X P62-UART_TX 98 650 -200 100 L 50 50 1 1 B
-X P63-UART_RX 99 650 -300 100 L 50 50 1 1 B
-X GND_EP 101 -650 -850 100 R 50 50 2 1 W
-X V0407 11 700 550 100 L 50 50 2 1 W
-X VDD 14 -650 550 100 R 50 50 2 1 W
-X V0811 17 700 450 100 L 50 50 2 1 W
-X VDD 2 -650 750 100 R 50 50 2 1 W
-X VDD 20 -650 450 100 R 50 50 2 1 W
-X V1215 23 700 350 100 L 50 50 2 1 W
-X VDD 26 -650 350 100 R 50 50 2 1 W
-X V1619 29 700 250 100 L 50 50 2 1 W
-X VDD 32 -650 250 100 R 50 50 2 1 W
-X V2023 35 700 150 100 L 50 50 2 1 W
-X VDD 38 -650 150 100 R 50 50 2 1 W
-X V2427 41 700 50 100 L 50 50 2 1 W
-X VDD 44 -650 50 100 R 50 50 2 1 W
-X V2831 47 700 -50 100 L 50 50 2 1 W
-X V0003 5 700 650 100 L 50 50 2 1 W
-X VDD 52 -650 -50 100 R 50 50 2 1 W
-X V3235 55 700 -150 100 L 50 50 2 1 W
-X VDD 58 -650 -150 100 R 50 50 2 1 W
-X V3639 61 700 -250 100 L 50 50 2 1 W
-X VDD 64 -650 -250 100 R 50 50 2 1 W
-X V4043 67 700 -350 100 L 50 50 2 1 W
-X VDD 70 -650 -350 100 R 50 50 2 1 W
-X V4447 73 700 -450 100 L 50 50 2 1 W
-X VDD 76 -650 -450 100 R 50 50 2 1 W
-X V4851 79 700 -550 100 L 50 50 2 1 W
-X VDD 8 -650 650 100 R 50 50 2 1 W
-X VDD 82 -650 -550 100 R 50 50 2 1 W
-X V5255 85 700 -650 100 L 50 50 2 1 W
-X VDD 88 -650 -650 100 R 50 50 2 1 W
-X V5659 91 700 -750 100 L 50 50 2 1 W
-X VDD 94 -650 -750 100 R 50 50 2 1 W
-X V6063 97 700 -850 100 L 50 50 2 1 W
-X P5 10 -800 250 100 R 50 50 3 1 B
-X P6 12 -800 150 100 R 50 50 3 1 B
-X P7 13 -800 50 100 R 50 50 3 1 B
-X P8 15 -800 -50 100 R 50 50 3 1 B
-X P9 16 -800 -150 100 R 50 50 3 1 B
-X P10 18 -800 -250 100 R 50 50 3 1 B
-X P11 19 -800 -350 100 R 50 50 3 1 B
-X P12 21 -800 -450 100 R 50 50 3 1 B
-X P13 22 -800 -550 100 R 50 50 3 1 B
-X P14 24 -800 -650 100 R 50 50 3 1 B
-X P15 25 -800 -750 100 R 50 50 3 1 B
-X P16 27 -650 -1150 100 U 50 50 3 1 B
-X P17 28 -550 -1150 100 U 50 50 3 1 B
-X P0 3 -800 750 100 R 50 50 3 1 B
-X P18 30 -450 -1150 100 U 50 50 3 1 B
-X P19 31 -350 -1150 100 U 50 50 3 1 B
-X P20 33 -250 -1150 100 U 50 50 3 1 B
-X P21 34 -150 -1150 100 U 50 50 3 1 B
-X P22 36 -50 -1150 100 U 50 50 3 1 B
-X P23 37 50 -1150 100 U 50 50 3 1 B
-X P24 39 150 -1150 100 U 50 50 3 1 B
-X P1 4 -800 650 100 R 50 50 3 1 B
-X P25 40 250 -1150 100 U 50 50 3 1 B
-X P26 42 350 -1150 100 U 50 50 3 1 B
-X P27 43 450 -1150 100 U 50 50 3 1 B
-X P28 45 550 -1150 100 U 50 50 3 1 B
-X P29 46 650 -1150 100 U 50 50 3 1 B
-X P30 48 750 -1150 100 U 50 50 3 1 B
-X P31 49 900 -750 100 L 50 50 3 1 B
-X P32 53 900 -650 100 L 50 50 3 1 B
-X P33 54 900 -550 100 L 50 50 3 1 B
-X P34 56 900 -450 100 L 50 50 3 1 B
-X P35 57 900 -350 100 L 50 50 3 1 B
-X P36 59 900 -250 100 L 50 50 3 1 B
-X P2 6 -800 550 100 R 50 50 3 1 B
-X P37 60 900 -150 100 L 50 50 3 1 B
-X P38 62 900 -50 100 L 50 50 3 1 B
-X P39 63 900 50 100 L 50 50 3 1 B
-X P40 65 900 150 100 L 50 50 3 1 B
-X P41 66 900 250 100 L 50 50 3 1 B
-X P42 68 900 350 100 L 50 50 3 1 B
-X P43 69 900 450 100 L 50 50 3 1 B
-X P3 7 -800 450 100 R 50 50 3 1 B
-X P44 71 900 550 100 L 50 50 3 1 B
-X P45 72 900 650 100 L 50 50 3 1 B
-X P46 74 900 750 100 L 50 50 3 1 B
-X P47 75 500 1150 100 D 50 50 3 1 B
-X P48 77 400 1150 100 D 50 50 3 1 B
-X P49 78 300 1150 100 D 50 50 3 1 B
-X P50 80 200 1150 100 D 50 50 3 1 B
-X P51 81 100 1150 100 D 50 50 3 1 B
-X P52 83 0 1150 100 D 50 50 3 1 B
-X P53 84 -100 1150 100 D 50 50 3 1 B
-X P54 86 -200 1150 100 D 50 50 3 1 B
-X P55 87 -300 1150 100 D 50 50 3 1 B
-X P56 89 -400 1150 100 D 50 50 3 1 B
-X P4 9 -800 350 100 R 50 50 3 1 B
-X P57 90 -500 1150 100 D 50 50 3 1 B
 ENDDRAW
 ENDDEF
 #

@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name propeller2)(type Legacy)(uri ${KIPRJMOD}/LIB/propeller2.lib)(options "")(descr ""))
   (lib (name Lyontek_psram)(type Legacy)(uri ${KIPRJMOD}/LIB/Lyontek_psram.lib)(options "")(descr ""))
+  (lib (name ROSBoardMini-rescue)(type Legacy)(uri ${KIPRJMOD}/ROSBoardMini-rescue.lib)(options "")(descr ""))
 )

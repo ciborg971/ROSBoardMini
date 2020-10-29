@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J1
+L ROSBoardMini-rescue:Conn_02x20_Odd_Even-Connector_Generic J1
 U 1 1 5C26120C
 P 12850 3000
 F 0 "J1" H 12900 4117 50  0000 C CNN
@@ -58,7 +58,7 @@ F 3 "" H 8200 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface_Expansion:PCA9544APW U3
+L ROSBoardMini-rescue:PCA9544APW-Interface_Expansion U3
 U 1 1 5F9A381E
 P 10000 6350
 F 0 "U3" H 9650 7550 50  0000 C CNN
@@ -69,7 +69,7 @@ F 3 "http://www.nxp.com/documents/data_sheet/PCA9544A.pdf" H 9800 5250 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Memory_Flash:W25Q128JVS U2
+L ROSBoardMini-rescue:W25Q128JVS-Memory_Flash U2
 U 1 1 5F9A51FE
 P 3700 1800
 F 0 "U2" H 4050 2350 50  0000 C CNN
@@ -80,7 +80,7 @@ F 3 "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plu
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensor_Motion:ICM-20948 U5
+L ROSBoardMini-rescue:ICM-20948-Sensor_Motion U5
 U 1 1 5F9A63FC
 P 14750 6450
 F 0 "U5" H 15450 6800 50  0000 C CNN
@@ -91,7 +91,7 @@ F 3 "http://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensor:BME280 U4
+L ROSBoardMini-rescue:BME280-Sensor U4
 U 1 1 5F9A70B1
 P 14700 9000
 F 0 "U4" H 14271 9046 50  0000 R CNN
@@ -121,9 +121,9 @@ Text Label 9500 6450 2    50   ~ 0
 I2C_SDA
 Text Label 9500 6550 2    50   ~ 0
 I2C_SCL
-Text Label 9450 1300 0    50   ~ 0
+Text Label 7400 3100 2    50   ~ 0
 I2C_SDA
-Text Label 9450 1400 0    50   ~ 0
+Text Label 7400 3200 2    50   ~ 0
 I2C_SCL
 NoConn ~ 1800 8550
 NoConn ~ 1800 8650
@@ -143,7 +143,7 @@ CSI0_PCLK
 Text Label 1800 9350 2    50   ~ 0
 CSI0_D5
 $Comp
-L power:GND #PWR0101
+L ROSBoardMini-rescue:GND-power #PWR0101
 U 1 1 5F9B231C
 P 1800 9450
 F 0 "#PWR0101" H 1800 9200 50  0001 C CNN
@@ -154,7 +154,7 @@ F 3 "" H 1800 9450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0102
+L ROSBoardMini-rescue:+3.3V-power #PWR0102
 U 1 1 5F9B2B82
 P 1800 9850
 F 0 "#PWR0102" H 1800 9700 50  0001 C CNN
@@ -165,7 +165,7 @@ F 3 "" H 1800 9850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+1V2 #PWR0103
+L ROSBoardMini-rescue:+1V2-power #PWR0103
 U 1 1 5F9B3C43
 P 1800 9950
 F 0 "#PWR0103" H 1800 9800 50  0001 C CNN
@@ -176,7 +176,7 @@ F 3 "" H 1800 9950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R1
+L ROSBoardMini-rescue:R-Device R1
 U 1 1 5F9B5B40
 P 1250 10150
 F 0 "R1" V 1200 10400 50  0000 C CNN
@@ -197,7 +197,7 @@ I2C0_SDA
 Text Label 1800 10450 2    50   ~ 0
 I2C0_SCL
 $Comp
-L power:GND #PWR0106
+L ROSBoardMini-rescue:GND-power #PWR0106
 U 1 1 5F9BB071
 P 1800 10750
 F 0 "#PWR0106" H 1800 10500 50  0001 C CNN
@@ -208,7 +208,7 @@ F 3 "" H 1800 10750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+2V8 #PWR0107
+L ROSBoardMini-rescue:+2V8-power #PWR0107
 U 1 1 5F9BB1DB
 P 1800 10550
 F 0 "#PWR0107" H 1800 10400 50  0001 C CNN
@@ -225,7 +225,7 @@ CSI0_MCLK
 Text Label 1800 9750 2    50   ~ 0
 CSI0_D7
 $Comp
-L Device:C C1
+L ROSBoardMini-rescue:C-Device C1
 U 1 1 5F9BDA0E
 P 600 9050
 F 0 "C1" H 715 9096 50  0000 L CNN
@@ -236,7 +236,7 @@ F 3 "~" H 600 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0108
+L ROSBoardMini-rescue:GND-power #PWR0108
 U 1 1 5F9BE39C
 P 600 9200
 F 0 "#PWR0108" H 600 8950 50  0001 C CNN
@@ -247,7 +247,7 @@ F 3 "" H 600 9200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L ROSBoardMini-rescue:C-Device C2
 U 1 1 5F9BFC80
 P 600 10550
 F 0 "C2" H 715 10596 50  0000 L CNN
@@ -258,7 +258,7 @@ F 3 "~" H 600 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0109
+L ROSBoardMini-rescue:GND-power #PWR0109
 U 1 1 5F9BFC86
 P 600 10700
 F 0 "#PWR0109" H 600 10450 50  0001 C CNN
@@ -269,7 +269,7 @@ F 3 "" H 600 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0110
+L ROSBoardMini-rescue:+3.3V-power #PWR0110
 U 1 1 5F9BFD60
 P 600 10400
 F 0 "#PWR0110" H 600 10250 50  0001 C CNN
@@ -298,7 +298,7 @@ CSI1_PCLK
 Text Label 4050 9350 2    50   ~ 0
 CSI1_D5
 $Comp
-L power:GND #PWR0111
+L ROSBoardMini-rescue:GND-power #PWR0111
 U 1 1 5F9CCEC5
 P 4050 9450
 F 0 "#PWR0111" H 4050 9200 50  0001 C CNN
@@ -309,7 +309,7 @@ F 3 "" H 4050 9450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0112
+L ROSBoardMini-rescue:+3.3V-power #PWR0112
 U 1 1 5F9CCECB
 P 4050 9850
 F 0 "#PWR0112" H 4050 9700 50  0001 C CNN
@@ -320,7 +320,7 @@ F 3 "" H 4050 9850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+1V2 #PWR0113
+L ROSBoardMini-rescue:+1V2-power #PWR0113
 U 1 1 5F9CCED1
 P 4050 9950
 F 0 "#PWR0113" H 4050 9800 50  0001 C CNN
@@ -331,7 +331,7 @@ F 3 "" H 4050 9950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R2
+L ROSBoardMini-rescue:R-Device R2
 U 1 1 5F9CCEDD
 P 3500 10150
 F 0 "R2" V 3450 10400 50  0000 C CNN
@@ -352,7 +352,7 @@ I2C1_SDA
 Text Label 4050 10450 2    50   ~ 0
 I2C1_SCL
 $Comp
-L power:GND #PWR0116
+L ROSBoardMini-rescue:GND-power #PWR0116
 U 1 1 5F9CCEF1
 P 4050 10750
 F 0 "#PWR0116" H 4050 10500 50  0001 C CNN
@@ -363,7 +363,7 @@ F 3 "" H 4050 10750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+2V8 #PWR0117
+L ROSBoardMini-rescue:+2V8-power #PWR0117
 U 1 1 5F9CCEF7
 P 4050 10550
 F 0 "#PWR0117" H 4050 10400 50  0001 C CNN
@@ -380,7 +380,7 @@ CSI1_MCLK
 Text Label 4050 9750 2    50   ~ 0
 CSI1_D7
 $Comp
-L Device:C C3
+L ROSBoardMini-rescue:C-Device C3
 U 1 1 5F9CCF01
 P 2850 9050
 F 0 "C3" H 2965 9096 50  0000 L CNN
@@ -391,7 +391,7 @@ F 3 "~" H 2850 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0118
+L ROSBoardMini-rescue:GND-power #PWR0118
 U 1 1 5F9CCF07
 P 2850 9200
 F 0 "#PWR0118" H 2850 8950 50  0001 C CNN
@@ -402,7 +402,7 @@ F 3 "" H 2850 9200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L ROSBoardMini-rescue:C-Device C4
 U 1 1 5F9CCF0D
 P 2850 10550
 F 0 "C4" H 2965 10596 50  0000 L CNN
@@ -413,7 +413,7 @@ F 3 "~" H 2850 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0119
+L ROSBoardMini-rescue:GND-power #PWR0119
 U 1 1 5F9CCF13
 P 2850 10700
 F 0 "#PWR0119" H 2850 10450 50  0001 C CNN
@@ -424,7 +424,7 @@ F 3 "" H 2850 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0120
+L ROSBoardMini-rescue:+3.3V-power #PWR0120
 U 1 1 5F9CCF19
 P 2850 10400
 F 0 "#PWR0120" H 2850 10250 50  0001 C CNN
@@ -454,7 +454,7 @@ CSI2_PCLK
 Text Label 6250 9350 2    50   ~ 0
 CSI2_D5
 $Comp
-L power:GND #PWR0121
+L ROSBoardMini-rescue:GND-power #PWR0121
 U 1 1 5F9D7020
 P 6250 9450
 F 0 "#PWR0121" H 6250 9200 50  0001 C CNN
@@ -465,7 +465,7 @@ F 3 "" H 6250 9450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0122
+L ROSBoardMini-rescue:+3.3V-power #PWR0122
 U 1 1 5F9D7026
 P 6250 9850
 F 0 "#PWR0122" H 6250 9700 50  0001 C CNN
@@ -476,7 +476,7 @@ F 3 "" H 6250 9850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+1V2 #PWR0123
+L ROSBoardMini-rescue:+1V2-power #PWR0123
 U 1 1 5F9D702C
 P 6250 9950
 F 0 "#PWR0123" H 6250 9800 50  0001 C CNN
@@ -487,7 +487,7 @@ F 3 "" H 6250 9950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R3
+L ROSBoardMini-rescue:R-Device R3
 U 1 1 5F9D7038
 P 5700 10150
 F 0 "R3" V 5650 10400 50  0000 C CNN
@@ -508,7 +508,7 @@ I2C2_SDA
 Text Label 6250 10450 2    50   ~ 0
 I2C2_SCL
 $Comp
-L power:GND #PWR0126
+L ROSBoardMini-rescue:GND-power #PWR0126
 U 1 1 5F9D704C
 P 6250 10750
 F 0 "#PWR0126" H 6250 10500 50  0001 C CNN
@@ -519,7 +519,7 @@ F 3 "" H 6250 10750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+2V8 #PWR0127
+L ROSBoardMini-rescue:+2V8-power #PWR0127
 U 1 1 5F9D7052
 P 6250 10550
 F 0 "#PWR0127" H 6250 10400 50  0001 C CNN
@@ -536,7 +536,7 @@ CSI2_MCLK
 Text Label 6250 9750 2    50   ~ 0
 CSI2_D7
 $Comp
-L Device:C C5
+L ROSBoardMini-rescue:C-Device C5
 U 1 1 5F9D705C
 P 5050 9050
 F 0 "C5" H 5165 9096 50  0000 L CNN
@@ -547,7 +547,7 @@ F 3 "~" H 5050 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0128
+L ROSBoardMini-rescue:GND-power #PWR0128
 U 1 1 5F9D7062
 P 5050 9200
 F 0 "#PWR0128" H 5050 8950 50  0001 C CNN
@@ -558,7 +558,7 @@ F 3 "" H 5050 9200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
+L ROSBoardMini-rescue:C-Device C6
 U 1 1 5F9D7068
 P 5050 10550
 F 0 "C6" H 5165 10596 50  0000 L CNN
@@ -569,7 +569,7 @@ F 3 "~" H 5050 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0129
+L ROSBoardMini-rescue:GND-power #PWR0129
 U 1 1 5F9D706E
 P 5050 10700
 F 0 "#PWR0129" H 5050 10450 50  0001 C CNN
@@ -580,7 +580,7 @@ F 3 "" H 5050 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0130
+L ROSBoardMini-rescue:+3.3V-power #PWR0130
 U 1 1 5F9D7074
 P 5050 10400
 F 0 "#PWR0130" H 5050 10250 50  0001 C CNN
@@ -602,17 +602,17 @@ Text Label 8400 1500 1    50   ~ 0
 CSI0_D0
 Text Label 8000 1500 1    50   ~ 0
 CSI0_D4
-Text Label 8650 3800 3    50   ~ 0
+Text Label 7400 2200 2    50   ~ 0
 CSI0_PCLK
 Text Label 7900 1500 1    50   ~ 0
 CSI0_D5
-Text Label 8950 3800 3    50   ~ 0
+Text Label 7400 2000 2    50   ~ 0
 CSI0_HSYNC
-Text Label 9200 3750 0    50   ~ 0
+Text Label 7400 1900 2    50   ~ 0
 CSI0_VSYNC
 Text Label 7800 1500 1    50   ~ 0
 CSI0_D6
-Text Label 8350 3800 3    50   ~ 0
+Text Label 7400 2100 2    50   ~ 0
 CSI0_MCLK
 Text Label 7700 1500 1    50   ~ 0
 CSI0_D7
@@ -626,17 +626,17 @@ Text Label 9100 3100 0    50   ~ 0
 CSI1_D0
 Text Label 9100 2700 0    50   ~ 0
 CSI1_D4
-Text Label 8750 3800 3    50   ~ 0
+Text Label 7400 2700 2    50   ~ 0
 CSI1_PCLK
 Text Label 9100 2600 0    50   ~ 0
 CSI1_D5
-Text Label 9200 3950 0    50   ~ 0
+Text Label 7400 2900 2    50   ~ 0
 CSI1_HSYNC
-Text Label 9200 3650 0    50   ~ 0
+Text Label 7400 3000 2    50   ~ 0
 CSI1_VSYNC
 Text Label 9100 2500 0    50   ~ 0
 CSI1_D6
-Text Label 8450 3800 3    50   ~ 0
+Text Label 7400 2800 2    50   ~ 0
 CSI1_MCLK
 Text Label 9100 2400 0    50   ~ 0
 CSI1_D7
@@ -650,22 +650,22 @@ Text Label 9100 2300 0    50   ~ 0
 CSI2_D0
 Text Label 9100 1900 0    50   ~ 0
 CSI2_D4
-Text Label 8850 3800 3    50   ~ 0
+Text Label 7400 2300 2    50   ~ 0
 CSI2_PCLK
 Text Label 8700 1500 1    50   ~ 0
 CSI2_D5
-Text Label 9200 3850 0    50   ~ 0
+Text Label 7400 2500 2    50   ~ 0
 CSI2_HSYNC
-Text Label 9200 3550 0    50   ~ 0
+Text Label 7400 2600 2    50   ~ 0
 CSI2_VSYNC
 Text Label 8600 1500 1    50   ~ 0
 CSI2_D6
-Text Label 8550 3800 3    50   ~ 0
+Text Label 7400 2400 2    50   ~ 0
 CSI2_MCLK
 Text Label 8500 1500 1    50   ~ 0
 CSI2_D7
 $Comp
-L Connector:Conn_01x04_Female J5
+L ROSBoardMini-rescue:Conn_01x04_Female-Connector J5
 U 1 1 5F9F02DB
 P 8100 10750
 F 0 "J5" H 8128 10726 50  0000 L CNN
@@ -676,29 +676,18 @@ F 3 "~" H 8100 10750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR0131
+L ROSBoardMini-rescue:+BATT-power #PWR0131
 U 1 1 5F9F11CE
-P 7600 10650
-F 0 "#PWR0131" H 7600 10500 50  0001 C CNN
-F 1 "+BATT" V 7615 10777 50  0000 L CNN
-F 2 "" H 7600 10650 50  0001 C CNN
-F 3 "" H 7600 10650 50  0001 C CNN
-	1    7600 10650
+P 7900 10650
+F 0 "#PWR0131" H 7900 10500 50  0001 C CNN
+F 1 "+BATT" V 7915 10777 50  0000 L CNN
+F 2 "" H 7900 10650 50  0001 C CNN
+F 3 "" H 7900 10650 50  0001 C CNN
+	1    7900 10650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D1
-U 1 1 5F9F2B65
-P 7750 10650
-F 0 "D1" H 7600 10700 50  0000 C CNN
-F 1 "D" H 7850 10700 50  0000 C CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 7750 10650 50  0001 C CNN
-F 3 "~" H 7750 10650 50  0001 C CNN
-	1    7750 10650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D2
+L ROSBoardMini-rescue:D-Device D2
 U 1 1 5F9F73BE
 P 7750 10850
 F 0 "D2" H 7600 10900 50  0000 C CNN
@@ -709,7 +698,7 @@ F 3 "~" H 7750 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D3
+L ROSBoardMini-rescue:D-Device D3
 U 1 1 5F9F7618
 P 7750 10950
 F 0 "D3" H 7600 11000 50  0000 C CNN
@@ -720,7 +709,7 @@ F 3 "~" H 7750 10950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0132
+L ROSBoardMini-rescue:+3.3V-power #PWR0132
 U 1 1 5F9F7733
 P 7600 10950
 F 0 "#PWR0132" H 7600 10800 50  0001 C CNN
@@ -731,7 +720,7 @@ F 3 "" H 7600 10950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0133
+L ROSBoardMini-rescue:GND-power #PWR0133
 U 1 1 5F9F8F7A
 P 7600 10750
 F 0 "#PWR0133" H 7600 10500 50  0001 C CNN
@@ -742,7 +731,7 @@ F 3 "" H 7600 10750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0134
+L ROSBoardMini-rescue:+5V-power #PWR0134
 U 1 1 5F9FA0F8
 P 7600 10850
 F 0 "#PWR0134" H 7600 10700 50  0001 C CNN
@@ -755,7 +744,7 @@ $EndComp
 Wire Wire Line
 	7900 10750 7600 10750
 $Comp
-L power:+5V #PWR0135
+L ROSBoardMini-rescue:+5V-power #PWR0135
 U 1 1 5FA08721
 P 13150 2150
 F 0 "#PWR0135" H 13150 2000 50  0001 C CNN
@@ -771,7 +760,7 @@ Connection ~ 13150 2150
 Wire Wire Line
 	13150 2150 13150 2200
 $Comp
-L power:GND #PWR0136
+L ROSBoardMini-rescue:GND-power #PWR0136
 U 1 1 5FA0A419
 P 13150 2300
 F 0 "#PWR0136" H 13150 2050 50  0001 C CNN
@@ -787,17 +776,17 @@ Text Label 12650 3100 2    50   ~ 0
 SPI_MISO
 Text Label 12650 3200 2    50   ~ 0
 SPI_SCK
-Text Label 7400 2400 2    50   ~ 0
+Text Label 9100 3300 0    50   ~ 0
 SPI_MOSI
-Text Label 7400 2500 2    50   ~ 0
+Text Label 9100 3200 0    50   ~ 0
 SPI_MISO
-Text Label 7400 2600 2    50   ~ 0
+Text Label 9100 3400 0    50   ~ 0
 SPI_SCK
 Text Label 13150 3200 0    50   ~ 0
 SPI_CS0
 Text Label 13150 3300 0    50   ~ 0
 SPI_CS1
-Text Label 7400 2300 2    50   ~ 0
+Text Label 10150 4350 2    50   ~ 0
 SPI_CS0
 Text Label 12650 2900 2    50   ~ 0
 P2_RST
@@ -812,39 +801,39 @@ P2_RX
 Text Label 3700 3550 0    50   ~ 0
 P2_TX
 $Comp
-L power:+BATT #PWR0137
+L ROSBoardMini-rescue:+BATT-power #PWR0137
 U 1 1 5FA1657C
-P 7400 2200
-F 0 "#PWR0137" H 7400 2050 50  0001 C CNN
-F 1 "+BATT" V 7415 2328 50  0000 L CNN
-F 2 "" H 7400 2200 50  0001 C CNN
-F 3 "" H 7400 2200 50  0001 C CNN
-	1    7400 2200
+P 10150 4250
+F 0 "#PWR0137" H 10150 4100 50  0001 C CNN
+F 1 "+BATT" V 10165 4378 50  0000 L CNN
+F 2 "" H 10150 4250 50  0001 C CNN
+F 3 "" H 10150 4250 50  0001 C CNN
+	1    10150 4250
 	0    -1   -1   0   
 $EndComp
-Text Label 10000 1550 1    50   ~ 0
+Text Label 7850 3800 3    50   ~ 0
 IO5
-Text Label 10100 1550 1    50   ~ 0
+Text Label 7750 3800 3    50   ~ 0
 IO4
-Text Label 10200 1550 1    50   ~ 0
+Text Label 7650 3800 3    50   ~ 0
 IO3
-Text Label 10300 1550 1    50   ~ 0
+Text Label 7550 3800 3    50   ~ 0
 IO2
-Text Label 10400 1550 1    50   ~ 0
+Text Label 7400 3400 2    50   ~ 0
 IO1
-Text Label 10500 1550 1    50   ~ 0
+Text Label 7400 3300 2    50   ~ 0
 IO0
 Text Label 9250 10600 2    50   ~ 0
 IO5
-Text Label 9250 10400 2    50   ~ 0
+Text Label 9250 8900 2    50   ~ 0
 IO4
-Text Label 9250 10300 2    50   ~ 0
+Text Label 9250 8800 2    50   ~ 0
 IO3
-Text Label 9250 10200 2    50   ~ 0
+Text Label 9250 8700 2    50   ~ 0
 IO2
-Text Label 9250 10100 2    50   ~ 0
+Text Label 9250 8600 2    50   ~ 0
 IO1
-Text Label 9250 10000 2    50   ~ 0
+Text Label 9250 8500 2    50   ~ 0
 IO0
 Text Label 9250 9700 2    50   ~ 0
 SPI_CS1
@@ -858,29 +847,29 @@ Text Label 12650 2200 2    50   ~ 0
 GPIO8
 Text Label 12650 2300 2    50   ~ 0
 GPIO9
-Text Label 9250 9200 2    50   ~ 0
+Text Label 9250 9000 2    50   ~ 0
 GPIO8
 Text Label 9250 9100 2    50   ~ 0
 GPIO9
 Text Label 13150 2600 0    50   ~ 0
 GPIO1
-Text Label 9250 9000 2    50   ~ 0
+Text Label 9250 9200 2    50   ~ 0
 GPIO1
 Text Label 13150 3900 0    50   ~ 0
 GPIO28
-Text Label 9250 8900 2    50   ~ 0
+Text Label 9250 10300 2    50   ~ 0
 GPIO28
 Text Label 13150 4000 0    50   ~ 0
 GPIO29
-Text Label 9250 8800 2    50   ~ 0
+Text Label 9250 10400 2    50   ~ 0
 GPIO29
 Text Label 12650 3800 2    50   ~ 0
 GPIO24
-Text Label 9250 8700 2    50   ~ 0
+Text Label 9250 10200 2    50   ~ 0
 GPIO24
 Text Label 12650 3700 2    50   ~ 0
 GPIO23
-Text Label 9250 8600 2    50   ~ 0
+Text Label 9250 10100 2    50   ~ 0
 GPIO23
 Text Label 12650 3400 2    50   ~ 0
 EEPROM_SDA
@@ -891,7 +880,7 @@ EEPROM_SCL
 Text Label 15250 2700 0    50   ~ 0
 EEPROM_SDA
 $Comp
-L power:GND #PWR0139
+L ROSBoardMini-rescue:GND-power #PWR0139
 U 1 1 5FA30D2D
 P 12650 4000
 F 0 "#PWR0139" H 12650 3750 50  0001 C CNN
@@ -902,7 +891,7 @@ F 3 "" H 12650 4000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0140
+L ROSBoardMini-rescue:GND-power #PWR0140
 U 1 1 5FA32606
 P 13150 3700
 F 0 "#PWR0140" H 13150 3450 50  0001 C CNN
@@ -913,7 +902,7 @@ F 3 "" H 13150 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0141
+L ROSBoardMini-rescue:GND-power #PWR0141
 U 1 1 5FA335FC
 P 13150 3500
 F 0 "#PWR0141" H 13150 3250 50  0001 C CNN
@@ -924,7 +913,7 @@ F 3 "" H 13150 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0142
+L ROSBoardMini-rescue:GND-power #PWR0142
 U 1 1 5FA34906
 P 13150 3000
 F 0 "#PWR0142" H 13150 2750 50  0001 C CNN
@@ -935,7 +924,7 @@ F 3 "" H 13150 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0143
+L ROSBoardMini-rescue:GND-power #PWR0143
 U 1 1 5FA35E34
 P 13150 2700
 F 0 "#PWR0143" H 13150 2450 50  0001 C CNN
@@ -946,7 +935,7 @@ F 3 "" H 13150 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0144
+L ROSBoardMini-rescue:GND-power #PWR0144
 U 1 1 5FA365E4
 P 12650 2500
 F 0 "#PWR0144" H 12650 2250 50  0001 C CNN
@@ -957,7 +946,7 @@ F 3 "" H 12650 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0145
+L ROSBoardMini-rescue:GND-power #PWR0145
 U 1 1 5FA37D64
 P 12650 3300
 F 0 "#PWR0145" H 12650 3050 50  0001 C CNN
@@ -979,7 +968,7 @@ NoConn ~ 12650 3500
 NoConn ~ 12650 3600
 NoConn ~ 12650 3900
 $Comp
-L power:GND #PWR0146
+L ROSBoardMini-rescue:GND-power #PWR0146
 U 1 1 5FA4239E
 P 9250 10700
 F 0 "#PWR0146" H 9250 10450 50  0001 C CNN
@@ -990,7 +979,7 @@ F 3 "" H 9250 10700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0147
+L ROSBoardMini-rescue:+3.3V-power #PWR0147
 U 1 1 5FA43AC0
 P 9250 10800
 F 0 "#PWR0147" H 9250 10650 50  0001 C CNN
@@ -1002,12 +991,12 @@ F 3 "" H 9250 10800 50  0001 C CNN
 $EndComp
 Text Label 13150 3600 0    50   ~ 0
 GPIO26
-Text Label 9250 8500 2    50   ~ 0
+Text Label 9250 10000 2    50   ~ 0
 GPIO26
 NoConn ~ 9250 10500
 NoConn ~ 9250 9900
 $Comp
-L Device:Crystal_GND23 Y1
+L ROSBoardMini-rescue:Crystal_GND23-Device Y1
 U 1 1 5FA91604
 P 1600 3300
 F 0 "Y1" V 1150 3300 50  0000 L CNN
@@ -1020,7 +1009,7 @@ $EndComp
 Wire Wire Line
 	2350 3450 2450 3450
 $Comp
-L Device:R R7
+L ROSBoardMini-rescue:R-Device R7
 U 1 1 5FA967CE
 P 2350 3600
 F 0 "R7" H 2100 3650 50  0000 L CNN
@@ -1031,7 +1020,7 @@ F 3 "~" H 2350 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0148
+L ROSBoardMini-rescue:+3.3V-power #PWR0148
 U 1 1 5FA980C9
 P 2350 3750
 F 0 "#PWR0148" H 2350 3600 50  0001 C CNN
@@ -1042,7 +1031,7 @@ F 3 "" H 2350 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0149
+L ROSBoardMini-rescue:GND-power #PWR0149
 U 1 1 5FAA12BE
 P 1800 3300
 F 0 "#PWR0149" H 1800 3050 50  0001 C CNN
@@ -1053,7 +1042,7 @@ F 3 "" H 1800 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0150
+L ROSBoardMini-rescue:GND-power #PWR0150
 U 1 1 5FAA2216
 P 1400 3300
 F 0 "#PWR0150" H 1400 3050 50  0001 C CNN
@@ -1076,7 +1065,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 3250 2450 3250
 $Comp
-L Memory_EEPROM:24LC256 U6
+L ROSBoardMini-rescue:24LC256-Memory_EEPROM U6
 U 1 1 5FAA7E0E
 P 14850 2800
 F 0 "U6" H 15200 3250 50  0000 C CNN
@@ -1087,7 +1076,7 @@ F 3 "http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf" H 14850 2800 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0151
+L ROSBoardMini-rescue:GND-power #PWR0151
 U 1 1 5FAAAAAE
 P 14450 2800
 F 0 "#PWR0151" H 14450 2550 50  0001 C CNN
@@ -1103,7 +1092,7 @@ Connection ~ 14450 2800
 Wire Wire Line
 	14450 2800 14450 2900
 $Comp
-L power:GND #PWR0152
+L ROSBoardMini-rescue:GND-power #PWR0152
 U 1 1 5FAACB0E
 P 14850 3100
 F 0 "#PWR0152" H 14850 2850 50  0001 C CNN
@@ -1114,7 +1103,7 @@ F 3 "" H 14850 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R8
+L ROSBoardMini-rescue:R-Device R8
 U 1 1 5FAAE2B4
 P 14650 1700
 F 0 "R8" H 14720 1746 50  0000 L CNN
@@ -1125,7 +1114,7 @@ F 3 "~" H 14650 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0153
+L ROSBoardMini-rescue:+3.3V-power #PWR0153
 U 1 1 5FAAF3F8
 P 14850 1550
 F 0 "#PWR0153" H 14850 1400 50  0001 C CNN
@@ -1136,7 +1125,7 @@ F 3 "" H 14850 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R9
+L ROSBoardMini-rescue:R-Device R9
 U 1 1 5FAB0909
 P 15050 1700
 F 0 "R9" H 15120 1746 50  0000 L CNN
@@ -1161,7 +1150,7 @@ Wire Wire Line
 	14650 1950 14650 1850
 NoConn ~ 15250 2900
 $Comp
-L power:+3.3V #PWR0154
+L ROSBoardMini-rescue:+3.3V-power #PWR0154
 U 1 1 5FAB697E
 P 14850 2500
 F 0 "#PWR0154" H 14850 2350 50  0001 C CNN
@@ -1172,7 +1161,7 @@ F 3 "" H 14850 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0155
+L ROSBoardMini-rescue:GND-power #PWR0155
 U 1 1 5FAD1542
 P 14700 9600
 F 0 "#PWR0155" H 14700 9350 50  0001 C CNN
@@ -1196,7 +1185,7 @@ I2C_SDA
 Text Label 14700 4250 0    50   ~ 0
 I2C_SCL
 $Comp
-L Device:R R18
+L ROSBoardMini-rescue:R-Device R18
 U 1 1 5FAD7D1B
 P 14300 4050
 F 0 "R18" H 14370 4096 50  0000 L CNN
@@ -1207,7 +1196,7 @@ F 3 "~" H 14300 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0156
+L ROSBoardMini-rescue:+3.3V-power #PWR0156
 U 1 1 5FAD7D21
 P 14500 3900
 F 0 "#PWR0156" H 14500 3750 50  0001 C CNN
@@ -1218,7 +1207,7 @@ F 3 "" H 14500 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R19
+L ROSBoardMini-rescue:R-Device R19
 U 1 1 5FAD7D27
 P 14700 4050
 F 0 "R19" H 14770 4096 50  0000 L CNN
@@ -1238,7 +1227,7 @@ Wire Wire Line
 Wire Wire Line
 	14300 4250 14300 4200
 $Comp
-L power:GND #PWR0157
+L ROSBoardMini-rescue:GND-power #PWR0157
 U 1 1 5FADBE1C
 P 15300 8700
 F 0 "#PWR0157" H 15300 8450 50  0001 C CNN
@@ -1249,7 +1238,7 @@ F 3 "" H 15300 8700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0158
+L ROSBoardMini-rescue:+3.3V-power #PWR0158
 U 1 1 5FADC95F
 P 15300 9300
 F 0 "#PWR0158" H 15300 9150 50  0001 C CNN
@@ -1260,7 +1249,7 @@ F 3 "" H 15300 9300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C8
+L ROSBoardMini-rescue:C-Device C8
 U 1 1 5FADE467
 P 12950 9050
 F 0 "C8" H 13065 9096 50  0000 L CNN
@@ -1271,7 +1260,7 @@ F 3 "~" H 12950 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0159
+L ROSBoardMini-rescue:GND-power #PWR0159
 U 1 1 5FAE24C2
 P 12950 9200
 F 0 "#PWR0159" H 12950 8950 50  0001 C CNN
@@ -1282,7 +1271,7 @@ F 3 "" H 12950 9200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0160
+L ROSBoardMini-rescue:+3.3V-power #PWR0160
 U 1 1 5FAE7C23
 P 12950 8900
 F 0 "#PWR0160" H 12950 8750 50  0001 C CNN
@@ -1293,7 +1282,7 @@ F 3 "" H 12950 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0161
+L ROSBoardMini-rescue:+3.3V-power #PWR0161
 U 1 1 5FAE8F52
 P 14700 8400
 F 0 "#PWR0161" H 14700 8250 50  0001 C CNN
@@ -1309,7 +1298,7 @@ Connection ~ 14700 8400
 Wire Wire Line
 	14700 8400 14800 8400
 $Comp
-L Device:C C9
+L ROSBoardMini-rescue:C-Device C9
 U 1 1 5FAEBEE6
 P 13450 9050
 F 0 "C9" H 13565 9096 50  0000 L CNN
@@ -1320,7 +1309,7 @@ F 3 "~" H 13450 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0162
+L ROSBoardMini-rescue:GND-power #PWR0162
 U 1 1 5FAEBEEC
 P 13450 9200
 F 0 "#PWR0162" H 13450 8950 50  0001 C CNN
@@ -1331,7 +1320,7 @@ F 3 "" H 13450 9200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0163
+L ROSBoardMini-rescue:+3.3V-power #PWR0163
 U 1 1 5FAEBEF2
 P 13450 8900
 F 0 "#PWR0163" H 13450 8750 50  0001 C CNN
@@ -1346,7 +1335,7 @@ I2C3_SDA
 Text Label 14250 6350 2    50   ~ 0
 I2C3_SCL
 $Comp
-L Device:C C12
+L ROSBoardMini-rescue:C-Device C12
 U 1 1 5FB06454
 P 15250 6800
 F 0 "C12" H 15365 6846 50  0000 L CNN
@@ -1357,7 +1346,7 @@ F 3 "~" H 15250 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0164
+L ROSBoardMini-rescue:GND-power #PWR0164
 U 1 1 5FB090F7
 P 15250 6950
 F 0 "#PWR0164" H 15250 6700 50  0001 C CNN
@@ -1368,7 +1357,7 @@ F 3 "" H 15250 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0165
+L ROSBoardMini-rescue:GND-power #PWR0165
 U 1 1 5FB0A2A9
 P 14750 7150
 F 0 "#PWR0165" H 14750 6900 50  0001 C CNN
@@ -1379,7 +1368,7 @@ F 3 "" H 14750 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0166
+L ROSBoardMini-rescue:+3.3V-power #PWR0166
 U 1 1 5FB0B39C
 P 14850 5750
 F 0 "#PWR0166" H 14850 5600 50  0001 C CNN
@@ -1390,7 +1379,7 @@ F 3 "" H 14850 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
+L ROSBoardMini-rescue:C-Device C11
 U 1 1 5FB0C9A1
 P 15000 5750
 F 0 "C11" V 14748 5750 50  0000 C CNN
@@ -1402,7 +1391,7 @@ F 3 "~" H 15000 5750 50  0001 C CNN
 $EndComp
 Connection ~ 14850 5750
 $Comp
-L power:GND #PWR0167
+L ROSBoardMini-rescue:GND-power #PWR0167
 U 1 1 5FB0EB4E
 P 15150 5750
 F 0 "#PWR0167" H 15150 5500 50  0001 C CNN
@@ -1413,7 +1402,7 @@ F 3 "" H 15150 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+1V8 #PWR0168
+L ROSBoardMini-rescue:+1V8-power #PWR0168
 U 1 1 5FB10517
 P 14650 5750
 F 0 "#PWR0168" H 14650 5600 50  0001 C CNN
@@ -1424,7 +1413,7 @@ F 3 "" H 14650 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L ROSBoardMini-rescue:C-Device C10
 U 1 1 5FB12286
 P 14500 5750
 F 0 "C10" V 14248 5750 50  0000 C CNN
@@ -1436,7 +1425,7 @@ F 3 "~" H 14500 5750 50  0001 C CNN
 $EndComp
 Connection ~ 14650 5750
 $Comp
-L power:GND #PWR0169
+L ROSBoardMini-rescue:GND-power #PWR0169
 U 1 1 5FB13872
 P 14350 5750
 F 0 "#PWR0169" H 14350 5500 50  0001 C CNN
@@ -1451,7 +1440,7 @@ NoConn ~ 15250 6450
 NoConn ~ 14250 6750
 NoConn ~ 14250 6650
 $Comp
-L power:+1V8 #PWR0170
+L ROSBoardMini-rescue:+1V8-power #PWR0170
 U 1 1 5FB18ED0
 P 14250 6450
 F 0 "#PWR0170" H 14250 6300 50  0001 C CNN
@@ -1462,7 +1451,7 @@ F 3 "" H 14250 6450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0171
+L ROSBoardMini-rescue:GND-power #PWR0171
 U 1 1 5FB19DCD
 P 14200 6150
 F 0 "#PWR0171" H 14200 5900 50  0001 C CNN
@@ -1475,7 +1464,7 @@ $EndComp
 Wire Wire Line
 	14250 6150 14200 6150
 $Comp
-L power:+1V8 #PWR0172
+L ROSBoardMini-rescue:+1V8-power #PWR0172
 U 1 1 5FB1D58D
 P 13400 6800
 F 0 "#PWR0172" H 13400 6650 50  0001 C CNN
@@ -1490,7 +1479,7 @@ I2C3_SDA
 Text Label 13300 7200 2    50   ~ 0
 I2C3_SCL
 $Comp
-L Device:R R16
+L ROSBoardMini-rescue:R-Device R16
 U 1 1 5FB1E822
 P 13400 6950
 F 0 "R16" H 13470 6996 50  0000 L CNN
@@ -1501,7 +1490,7 @@ F 3 "~" H 13400 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+1V8 #PWR0173
+L ROSBoardMini-rescue:+1V8-power #PWR0173
 U 1 1 5FB21A79
 P 13750 6800
 F 0 "#PWR0173" H 13750 6650 50  0001 C CNN
@@ -1512,7 +1501,7 @@ F 3 "" H 13750 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R17
+L ROSBoardMini-rescue:R-Device R17
 U 1 1 5FB21A7F
 P 13750 6950
 F 0 "R17" H 13820 6996 50  0000 L CNN
@@ -1541,7 +1530,7 @@ I2C2_SDA
 Text Label 7100 6750 2    50   ~ 0
 I2C2_SCL
 $Comp
-L Device:R R10
+L ROSBoardMini-rescue:R-Device R10
 U 1 1 5FB2A889
 P 7300 6000
 F 0 "R10" H 7370 6046 50  0000 L CNN
@@ -1552,7 +1541,7 @@ F 3 "~" H 7300 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R11
+L ROSBoardMini-rescue:R-Device R11
 U 1 1 5FB2AFDD
 P 7600 6000
 F 0 "R11" H 7670 6046 50  0000 L CNN
@@ -1571,7 +1560,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 6350 7600 6150
 $Comp
-L Device:R R12
+L ROSBoardMini-rescue:R-Device R12
 U 1 1 5FB2F512
 P 7900 6000
 F 0 "R12" H 7970 6046 50  0000 L CNN
@@ -1582,7 +1571,7 @@ F 3 "~" H 7900 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R13
+L ROSBoardMini-rescue:R-Device R13
 U 1 1 5FB2F518
 P 8200 6000
 F 0 "R13" H 8270 6046 50  0000 L CNN
@@ -1593,7 +1582,7 @@ F 3 "~" H 8200 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R14
+L ROSBoardMini-rescue:R-Device R14
 U 1 1 5FB33C58
 P 8500 6000
 F 0 "R14" H 8570 6046 50  0000 L CNN
@@ -1604,7 +1593,7 @@ F 3 "~" H 8500 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R15
+L ROSBoardMini-rescue:R-Device R15
 U 1 1 5FB33C5E
 P 8800 6000
 F 0 "R15" H 8870 6046 50  0000 L CNN
@@ -1631,7 +1620,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 6750 7100 6750
 $Comp
-L power:+3.3V #PWR0174
+L ROSBoardMini-rescue:+3.3V-power #PWR0174
 U 1 1 5FB3C767
 P 8050 5850
 F 0 "#PWR0174" H 8050 5700 50  0001 C CNN
@@ -1659,7 +1648,7 @@ Connection ~ 8500 5850
 Wire Wire Line
 	8500 5850 8200 5850
 $Comp
-L power:GND #PWR0175
+L ROSBoardMini-rescue:GND-power #PWR0175
 U 1 1 5FB45BBD
 P 9500 6950
 F 0 "#PWR0175" H 9500 6700 50  0001 C CNN
@@ -1675,7 +1664,7 @@ Connection ~ 9500 6950
 Wire Wire Line
 	9500 6950 9500 7050
 $Comp
-L power:GND #PWR0176
+L ROSBoardMini-rescue:GND-power #PWR0176
 U 1 1 5FB48FAB
 P 10000 7250
 F 0 "#PWR0176" H 10000 7000 50  0001 C CNN
@@ -1691,7 +1680,7 @@ NoConn ~ 10500 6650
 NoConn ~ 10500 7050
 NoConn ~ 9500 6650
 $Comp
-L Device:C C7
+L ROSBoardMini-rescue:C-Device C7
 U 1 1 5FB67DFC
 P 11600 5900
 F 0 "C7" H 11715 5946 50  0000 L CNN
@@ -1702,7 +1691,7 @@ F 3 "~" H 11600 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0177
+L ROSBoardMini-rescue:GND-power #PWR0177
 U 1 1 5FB67E02
 P 11600 6050
 F 0 "#PWR0177" H 11600 5800 50  0001 C CNN
@@ -1713,7 +1702,7 @@ F 3 "" H 11600 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0178
+L ROSBoardMini-rescue:+3.3V-power #PWR0178
 U 1 1 5FB67E08
 P 11600 5750
 F 0 "#PWR0178" H 11600 5600 50  0001 C CNN
@@ -1724,7 +1713,7 @@ F 3 "" H 11600 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0179
+L ROSBoardMini-rescue:+3.3V-power #PWR0179
 U 1 1 5FB698B7
 P 10000 5450
 F 0 "#PWR0179" H 10000 5300 50  0001 C CNN
@@ -1735,7 +1724,7 @@ F 3 "" H 10000 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C13
+L ROSBoardMini-rescue:C-Device C13
 U 1 1 5FB6CA92
 P 15350 4000
 F 0 "C13" H 15465 4046 50  0000 L CNN
@@ -1746,7 +1735,7 @@ F 3 "~" H 15350 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0180
+L ROSBoardMini-rescue:GND-power #PWR0180
 U 1 1 5FB6CA98
 P 15350 4150
 F 0 "#PWR0180" H 15350 3900 50  0001 C CNN
@@ -1757,7 +1746,7 @@ F 3 "" H 15350 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0181
+L ROSBoardMini-rescue:+3.3V-power #PWR0181
 U 1 1 5FB6CA9E
 P 15350 3850
 F 0 "#PWR0181" H 15350 3700 50  0001 C CNN
@@ -1768,7 +1757,7 @@ F 3 "" H 15350 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C18
+L ROSBoardMini-rescue:C-Device C18
 U 1 1 5FB89FA3
 P 4800 1750
 F 0 "C18" H 4915 1796 50  0000 L CNN
@@ -1779,7 +1768,7 @@ F 3 "~" H 4800 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0182
+L ROSBoardMini-rescue:GND-power #PWR0182
 U 1 1 5FB89FA9
 P 4800 1900
 F 0 "#PWR0182" H 4800 1650 50  0001 C CNN
@@ -1790,7 +1779,7 @@ F 3 "" H 4800 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0183
+L ROSBoardMini-rescue:+3.3V-power #PWR0183
 U 1 1 5FB89FAF
 P 4800 1600
 F 0 "#PWR0183" H 4800 1450 50  0001 C CNN
@@ -1801,7 +1790,7 @@ F 3 "" H 4800 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+1V2 #PWR0184
+L ROSBoardMini-rescue:+1V2-power #PWR0184
 U 1 1 5FB8BA96
 P 11000 9700
 F 0 "#PWR0184" H 11000 9550 50  0001 C CNN
@@ -1812,7 +1801,7 @@ F 3 "" H 11000 9700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+2V8 #PWR0185
+L ROSBoardMini-rescue:+2V8-power #PWR0185
 U 1 1 5FB8D053
 P 11000 10550
 F 0 "#PWR0185" H 11000 10400 50  0001 C CNN
@@ -1823,7 +1812,7 @@ F 3 "" H 11000 10550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+1V8 #PWR0186
+L ROSBoardMini-rescue:+1V8-power #PWR0186
 U 1 1 5FB8FFD9
 P 11000 8850
 F 0 "#PWR0186" H 11000 8700 50  0001 C CNN
@@ -1834,7 +1823,7 @@ F 3 "" H 11000 8850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0187
+L ROSBoardMini-rescue:GND-power #PWR0187
 U 1 1 5FB92642
 P 2450 3150
 F 0 "#PWR0187" H 2450 2900 50  0001 C CNN
@@ -1845,7 +1834,7 @@ F 3 "" H 2450 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0188
+L ROSBoardMini-rescue:+3.3V-power #PWR0188
 U 1 1 5FB9437F
 P 2900 5300
 F 0 "#PWR0188" H 2900 5150 50  0001 C CNN
@@ -1903,7 +1892,7 @@ Connection ~ 2800 6700
 Wire Wire Line
 	2800 6700 2800 6800
 $Comp
-L power:+3.3V #PWR0189
+L ROSBoardMini-rescue:+3.3V-power #PWR0189
 U 1 1 5FB9A7AA
 P 4350 5500
 F 0 "#PWR0189" H 4350 5350 50  0001 C CNN
@@ -1914,7 +1903,7 @@ F 3 "" H 4350 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C14
+L ROSBoardMini-rescue:C-Device C14
 U 1 1 5FB9C3CF
 P 3450 5650
 F 0 "C14" H 3565 5696 50  0000 L CNN
@@ -1925,7 +1914,7 @@ F 3 "~" H 3450 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0190
+L ROSBoardMini-rescue:GND-power #PWR0190
 U 1 1 5FBA3B0B
 P 4350 5800
 F 0 "#PWR0190" H 4350 5550 50  0001 C CNN
@@ -1936,7 +1925,7 @@ F 3 "" H 4350 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C16
+L ROSBoardMini-rescue:C-Device C16
 U 1 1 5FBA5477
 P 3900 5650
 F 0 "C16" H 4015 5696 50  0000 L CNN
@@ -1947,7 +1936,7 @@ F 3 "~" H 3900 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C19
+L ROSBoardMini-rescue:C-Device C19
 U 1 1 5FBA75EC
 P 4350 5650
 F 0 "C19" H 4465 5696 50  0000 L CNN
@@ -1958,7 +1947,7 @@ F 3 "~" H 4350 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C21
+L ROSBoardMini-rescue:C-Device C21
 U 1 1 5FBA75F2
 P 4800 5650
 F 0 "C21" H 4915 5696 50  0000 L CNN
@@ -1969,7 +1958,7 @@ F 3 "~" H 4800 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C23
+L ROSBoardMini-rescue:C-Device C23
 U 1 1 5FBAAD71
 P 5250 5650
 F 0 "C23" H 5365 5696 50  0000 L CNN
@@ -2002,7 +1991,7 @@ Connection ~ 4800 5800
 Wire Wire Line
 	4800 5800 5250 5800
 $Comp
-L power:+1V8 #PWR0191
+L ROSBoardMini-rescue:+1V8-power #PWR0191
 U 1 1 5FBB79D8
 P 1350 5200
 F 0 "#PWR0191" H 1350 5050 50  0001 C CNN
@@ -2060,7 +2049,7 @@ Connection ~ 1450 6600
 Wire Wire Line
 	1450 6600 1450 6700
 $Comp
-L power:GND #PWR0192
+L ROSBoardMini-rescue:GND-power #PWR0192
 U 1 1 5FBBCB8F
 P 1450 6800
 F 0 "#PWR0192" H 1450 6550 50  0001 C CNN
@@ -2071,7 +2060,7 @@ F 3 "" H 1450 6800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C15
+L ROSBoardMini-rescue:C-Device C15
 U 1 1 5FBC380D
 P 3450 6400
 F 0 "C15" H 3565 6446 50  0000 L CNN
@@ -2082,7 +2071,7 @@ F 3 "~" H 3450 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0193
+L ROSBoardMini-rescue:GND-power #PWR0193
 U 1 1 5FBC3813
 P 4350 6550
 F 0 "#PWR0193" H 4350 6300 50  0001 C CNN
@@ -2093,7 +2082,7 @@ F 3 "" H 4350 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C17
+L ROSBoardMini-rescue:C-Device C17
 U 1 1 5FBC3819
 P 3900 6400
 F 0 "C17" H 4015 6446 50  0000 L CNN
@@ -2104,7 +2093,7 @@ F 3 "~" H 3900 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C20
+L ROSBoardMini-rescue:C-Device C20
 U 1 1 5FBC381F
 P 4350 6400
 F 0 "C20" H 4465 6446 50  0000 L CNN
@@ -2115,7 +2104,7 @@ F 3 "~" H 4350 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C22
+L ROSBoardMini-rescue:C-Device C22
 U 1 1 5FBC3825
 P 4800 6400
 F 0 "C22" H 4915 6446 50  0000 L CNN
@@ -2126,7 +2115,7 @@ F 3 "~" H 4800 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C24
+L ROSBoardMini-rescue:C-Device C24
 U 1 1 5FBC382B
 P 5250 6400
 F 0 "C24" H 5365 6446 50  0000 L CNN
@@ -2159,7 +2148,7 @@ Connection ~ 4800 6550
 Wire Wire Line
 	4800 6550 5250 6550
 $Comp
-L power:+1V8 #PWR0194
+L ROSBoardMini-rescue:+1V8-power #PWR0194
 U 1 1 5FBC7F67
 P 4350 6250
 F 0 "#PWR0194" H 4350 6100 50  0001 C CNN
@@ -2170,7 +2159,7 @@ F 3 "" H 4350 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:AZ1117-1.2 U8
+L ROSBoardMini-rescue:AZ1117-1.2-Regulator_Linear U8
 U 1 1 5FBFED2D
 P 10700 9700
 F 0 "U8" H 10700 9942 50  0000 C CNN
@@ -2181,7 +2170,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 10700 9700 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:AZ1117-1.8 U7
+L ROSBoardMini-rescue:AZ1117-1.8-Regulator_Linear U7
 U 1 1 5FC01885
 P 10700 8850
 F 0 "U7" H 10700 9092 50  0000 C CNN
@@ -2192,7 +2181,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 10700 8850 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:AZ1117-2.85 U9
+L ROSBoardMini-rescue:AZ1117-2.85-Regulator_Linear U9
 U 1 1 5FC10451
 P 10700 10550
 F 0 "U9" H 10700 10792 50  0000 C CNN
@@ -2203,7 +2192,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 10700 10550 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C25
+L ROSBoardMini-rescue:C-Device C25
 U 1 1 5FC1C741
 P 10400 9000
 F 0 "C25" H 10150 9050 50  0000 L CNN
@@ -2214,7 +2203,7 @@ F 3 "~" H 10400 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C28
+L ROSBoardMini-rescue:C-Device C28
 U 1 1 5FC1EE0E
 P 11000 9000
 F 0 "C28" H 11115 9046 50  0000 L CNN
@@ -2226,7 +2215,7 @@ F 3 "~" H 11000 9000 50  0001 C CNN
 $EndComp
 Connection ~ 11000 8850
 $Comp
-L power:+3.3V #PWR0195
+L ROSBoardMini-rescue:+3.3V-power #PWR0195
 U 1 1 5FC2A74E
 P 10400 8850
 F 0 "#PWR0195" H 10400 8700 50  0001 C CNN
@@ -2238,7 +2227,7 @@ F 3 "" H 10400 8850 50  0001 C CNN
 $EndComp
 Connection ~ 10400 8850
 $Comp
-L power:+3.3V #PWR0196
+L ROSBoardMini-rescue:+3.3V-power #PWR0196
 U 1 1 5FC2C2D2
 P 10400 9700
 F 0 "#PWR0196" H 10400 9550 50  0001 C CNN
@@ -2249,7 +2238,7 @@ F 3 "" H 10400 9700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C26
+L ROSBoardMini-rescue:C-Device C26
 U 1 1 5FC2EA22
 P 10400 9850
 F 0 "C26" H 10150 9900 50  0000 L CNN
@@ -2260,7 +2249,7 @@ F 3 "~" H 10400 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C29
+L ROSBoardMini-rescue:C-Device C29
 U 1 1 5FC2EA28
 P 11000 9850
 F 0 "C29" H 11115 9896 50  0000 L CNN
@@ -2273,7 +2262,7 @@ $EndComp
 Connection ~ 10400 9700
 Connection ~ 11000 9700
 $Comp
-L Device:C C27
+L ROSBoardMini-rescue:C-Device C27
 U 1 1 5FC391D4
 P 10400 10700
 F 0 "C27" H 10150 10750 50  0000 L CNN
@@ -2284,7 +2273,7 @@ F 3 "~" H 10400 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C30
+L ROSBoardMini-rescue:C-Device C30
 U 1 1 5FC391DA
 P 11000 10700
 F 0 "C30" H 11115 10746 50  0000 L CNN
@@ -2295,7 +2284,7 @@ F 3 "~" H 11000 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0197
+L ROSBoardMini-rescue:+3.3V-power #PWR0197
 U 1 1 5FC42581
 P 10400 10550
 F 0 "#PWR0197" H 10400 10400 50  0001 C CNN
@@ -2306,7 +2295,7 @@ F 3 "" H 10400 10550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0198
+L ROSBoardMini-rescue:GND-power #PWR0198
 U 1 1 5FC4610B
 P 10700 9150
 F 0 "#PWR0198" H 10700 8900 50  0001 C CNN
@@ -2317,7 +2306,7 @@ F 3 "" H 10700 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0199
+L ROSBoardMini-rescue:GND-power #PWR0199
 U 1 1 5FC4BEC2
 P 10700 10000
 F 0 "#PWR0199" H 10700 9750 50  0001 C CNN
@@ -2330,7 +2319,7 @@ $EndComp
 Connection ~ 10400 10550
 Connection ~ 11000 10550
 $Comp
-L power:GND #PWR0200
+L ROSBoardMini-rescue:GND-power #PWR0200
 U 1 1 5FC53E18
 P 10700 10850
 F 0 "#PWR0200" H 10700 10600 50  0001 C CNN
@@ -2362,7 +2351,7 @@ P59
 Text Label 3700 3350 0    50   ~ 0
 P60
 $Comp
-L Device:R R20
+L ROSBoardMini-rescue:R-Device R20
 U 1 1 5FC79480
 P 4100 3450
 F 0 "R20" V 4000 3450 50  0000 C CNN
@@ -2373,7 +2362,7 @@ F 3 "~" H 4100 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0201
+L ROSBoardMini-rescue:+3.3V-power #PWR0201
 U 1 1 5FC7AB77
 P 4250 3450
 F 0 "#PWR0201" H 4250 3300 50  0001 C CNN
@@ -2392,7 +2381,7 @@ P59
 Text Label 3200 1900 2    50   ~ 0
 P60
 $Comp
-L power:+3.3V #PWR0202
+L ROSBoardMini-rescue:+3.3V-power #PWR0202
 U 1 1 5FC8A618
 P 4200 1950
 F 0 "#PWR0202" H 4200 1800 50  0001 C CNN
@@ -2408,7 +2397,7 @@ Connection ~ 4200 1950
 Wire Wire Line
 	4200 1950 4200 2000
 $Comp
-L power:GND #PWR0203
+L ROSBoardMini-rescue:GND-power #PWR0203
 U 1 1 5FC91398
 P 3700 2200
 F 0 "#PWR0203" H 3700 1950 50  0001 C CNN
@@ -2419,7 +2408,7 @@ F 3 "" H 3700 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0204
+L ROSBoardMini-rescue:GND-power #PWR0204
 U 1 1 5FC9F5AF
 P 3200 1700
 F 0 "#PWR0204" H 3200 1450 50  0001 C CNN
@@ -2430,7 +2419,7 @@ F 3 "" H 3200 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0205
+L ROSBoardMini-rescue:+3.3V-power #PWR0205
 U 1 1 5FCA7C30
 P 3700 1400
 F 0 "#PWR0205" H 3700 1250 50  0001 C CNN
@@ -2452,7 +2441,7 @@ F 3 "" H 1900 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0138
+L ROSBoardMini-rescue:GND-power #PWR0138
 U 1 1 5F9AB460
 P 1950 2300
 F 0 "#PWR0138" H 1950 2050 50  0001 C CNN
@@ -2467,7 +2456,7 @@ PSRAM_CE
 Text Label 1400 1850 2    50   ~ 0
 PSRAM_SCLK
 $Comp
-L power:+3.3V #PWR0206
+L ROSBoardMini-rescue:+3.3V-power #PWR0206
 U 1 1 5F9AF993
 P 1950 1300
 F 0 "#PWR0206" H 1950 1150 50  0001 C CNN
@@ -2485,20 +2474,20 @@ Text Label 2550 1850 0    50   ~ 0
 PSRAM_D2
 Text Label 2550 1950 0    50   ~ 0
 PSRAM_D3
-Text Label 10050 1350 1    50   ~ 0
+Text Label 8550 3800 3    50   ~ 0
 PSRAM_CE
-Text Label 9950 1350 1    50   ~ 0
+Text Label 8450 3800 3    50   ~ 0
 PSRAM_SCLK
-Text Label 10500 1350 1    50   ~ 0
+Text Label 8950 3800 3    50   ~ 0
 PSRAM_D0
-Text Label 10400 1350 1    50   ~ 0
+Text Label 8850 3800 3    50   ~ 0
 PSRAM_D1
-Text Label 10150 1350 1    50   ~ 0
+Text Label 8650 3800 3    50   ~ 0
 PSRAM_D3
-Text Label 10300 1350 1    50   ~ 0
+Text Label 8750 3800 3    50   ~ 0
 PSRAM_D2
 $Comp
-L Device:C C31
+L ROSBoardMini-rescue:C-Device C31
 U 1 1 5FA18799
 P 650 1700
 F 0 "C31" H 765 1746 50  0000 L CNN
@@ -2509,7 +2498,7 @@ F 3 "~" H 650 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0207
+L ROSBoardMini-rescue:GND-power #PWR0207
 U 1 1 5FA1879F
 P 650 1850
 F 0 "#PWR0207" H 650 1600 50  0001 C CNN
@@ -2520,7 +2509,7 @@ F 3 "" H 650 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0208
+L ROSBoardMini-rescue:+3.3V-power #PWR0208
 U 1 1 5FA187A5
 P 650 1550
 F 0 "#PWR0208" H 650 1400 50  0001 C CNN
@@ -2533,7 +2522,7 @@ $EndComp
 Text Notes 10250 11150 0    50   ~ 0
 TODO\nCheck vi/vo for 3.3v/2.8v
 $Comp
-L Connector:Conn_01x24_Female J2
+L ROSBoardMini-rescue:Conn_01x24_Female-Connector J2
 U 1 1 5FB396ED
 P 2000 9650
 F 0 "J2" H 1950 10950 50  0000 L CNN
@@ -2544,7 +2533,7 @@ F 3 "~" H 2000 9650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x24_Female J3
+L ROSBoardMini-rescue:Conn_01x24_Female-Connector J3
 U 1 1 5FB5488A
 P 4250 9650
 F 0 "J3" H 4200 10950 50  0000 L CNN
@@ -2556,7 +2545,7 @@ F 3 "~" H 4250 9650 50  0001 C CNN
 $EndComp
 NoConn ~ 4050 8550
 $Comp
-L Connector:Conn_01x24_Female J4
+L ROSBoardMini-rescue:Conn_01x24_Female-Connector J4
 U 1 1 5FB71BD6
 P 6450 9650
 F 0 "J4" H 6400 10950 50  0000 L CNN
@@ -2567,7 +2556,7 @@ F 3 "~" H 6450 9650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x24_Female J6
+L ROSBoardMini-rescue:Conn_01x24_Female-Connector J6
 U 1 1 5FB831D5
 P 9450 9600
 F 0 "J6" H 9400 10900 50  0000 L CNN
@@ -2579,7 +2568,7 @@ F 3 "~" H 9450 9600 50  0001 C CNN
 $EndComp
 NoConn ~ 9250 9800
 $Comp
-L power:GND #PWR0104
+L ROSBoardMini-rescue:GND-power #PWR0104
 U 1 1 5FBA61F8
 P 9250 9400
 F 0 "#PWR0104" H 9250 9150 50  0001 C CNN
@@ -2592,7 +2581,7 @@ $EndComp
 Text Label 5550 10350 2    50   ~ 0
 CSI_RST
 $Comp
-L Device:R R6
+L ROSBoardMini-rescue:R-Device R6
 U 1 1 5FBAB627
 P 5700 10350
 F 0 "R6" V 5650 10600 50  0000 C CNN
@@ -2607,7 +2596,7 @@ Wire Wire Line
 Text Label 3350 10350 2    50   ~ 0
 CSI_RST
 $Comp
-L Device:R R5
+L ROSBoardMini-rescue:R-Device R5
 U 1 1 5FBC3625
 P 3500 10350
 F 0 "R5" V 3450 10600 50  0000 C CNN
@@ -2619,12 +2608,12 @@ F 3 "~" H 3500 10350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4050 10350 3650 10350
-Text Label 9200 3450 0    50   ~ 0
+Text Label 9300 4350 0    50   ~ 0
 CSI_RST
 Text Label 1100 10350 2    50   ~ 0
 CSI_RST
 $Comp
-L Device:R R4
+L ROSBoardMini-rescue:R-Device R4
 U 1 1 5FBD8556
 P 1250 10350
 F 0 "R4" V 1200 10600 50  0000 C CNN
@@ -2642,6 +2631,7 @@ Text Label 3350 10150 2    50   ~ 0
 CSI_PWDN
 Text Label 1100 10150 2    50   ~ 0
 CSI_PWDN
-Text Label 9200 3350 0    50   ~ 0
+Text Label 9300 4250 0    50   ~ 0
 CSI_PWDN
+NoConn ~ 13150 3800
 $EndSCHEMATC
