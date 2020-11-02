@@ -1,0 +1,248 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x24_Female J1
+U 1 1 5FA04C54
+P 2650 3150
+F 0 "J1" H 2542 1725 50  0000 C CNN
+F 1 "FPC" H 2542 1816 50  0000 C CNN
+F 2 "Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal" H 2650 3150 50  0001 C CNN
+F 3 "~" H 2650 3150 50  0001 C CNN
+	1    2650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x12_Odd_Even J2
+U 1 1 5FA07497
+P 3950 3350
+F 0 "J2" H 4000 4067 50  0000 C CNN
+F 1 "Conn_02x12_Odd_Even" H 4000 3976 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical" H 3950 3350 50  0001 C CNN
+F 3 "~" H 3950 3350 50  0001 C CNN
+	1    3950 3350
+	1    0    0    -1  
+$EndComp
+Text Label 2450 2250 2    50   ~ 0
+IO1
+Text Label 2450 2450 2    50   ~ 0
+IO2
+Text Label 2450 2550 2    50   ~ 0
+IO3
+Text Label 2450 2650 2    50   ~ 0
+IO4
+Text Label 2450 2750 2    50   ~ 0
+IO5
+Text Label 2450 2850 2    50   ~ 0
+IO6
+Text Label 2450 3150 2    50   ~ 0
+IO7
+Text Label 2450 3250 2    50   ~ 0
+IO8
+Text Label 2450 3350 2    50   ~ 0
+IO9
+Text Label 2450 3550 2    50   ~ 0
+IO10
+Text Label 2450 3650 2    50   ~ 0
+IO11
+Text Label 2450 3750 2    50   ~ 0
+IO12
+Text Label 2450 3850 2    50   ~ 0
+IO13
+Text Label 2450 3950 2    50   ~ 0
+IO14
+Text Label 2450 4050 2    50   ~ 0
+IO15
+Text Label 2450 4150 2    50   ~ 0
+IO16
+Text Label 3750 2850 2    50   ~ 0
+IO1
+Text Label 3750 2950 2    50   ~ 0
+IO3
+Text Label 3750 3050 2    50   ~ 0
+IO5
+Text Label 3750 3150 2    50   ~ 0
+IO7
+Text Label 3750 3250 2    50   ~ 0
+IO9
+Text Label 3750 3350 2    50   ~ 0
+IO11
+Text Label 3750 3450 2    50   ~ 0
+IO13
+Text Label 3750 3550 2    50   ~ 0
+IO15
+Text Label 4250 2850 0    50   ~ 0
+IO2
+Text Label 4250 2950 0    50   ~ 0
+IO4
+Text Label 4250 3050 0    50   ~ 0
+IO6
+Text Label 4250 3150 0    50   ~ 0
+IO8
+Text Label 4250 3250 0    50   ~ 0
+IO10
+Text Label 4250 3350 0    50   ~ 0
+IO12
+Text Label 4250 3450 0    50   ~ 0
+IO14
+Text Label 4250 3550 0    50   ~ 0
+IO16
+NoConn ~ 2450 2050
+NoConn ~ 2450 4350
+NoConn ~ 2450 4250
+$Comp
+L power:GND #PWR0101
+U 1 1 5FA5E485
+P 2450 2150
+F 0 "#PWR0101" H 2450 1900 50  0001 C CNN
+F 1 "GND" V 2455 2022 50  0000 R CNN
+F 2 "" H 2450 2150 50  0001 C CNN
+F 3 "" H 2450 2150 50  0001 C CNN
+	1    2450 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+2V8 #PWR0102
+U 1 1 5FA61EEF
+P 2450 2350
+F 0 "#PWR0102" H 2450 2200 50  0001 C CNN
+F 1 "+2V8" V 2465 2478 50  0000 L CNN
+F 2 "" H 2450 2350 50  0001 C CNN
+F 3 "" H 2450 2350 50  0001 C CNN
+	1    2450 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+1V2 #PWR0103
+U 1 1 5FA6799F
+P 2450 2950
+F 0 "#PWR0103" H 2450 2800 50  0001 C CNN
+F 1 "+1V2" V 2465 3078 50  0000 L CNN
+F 2 "" H 2450 2950 50  0001 C CNN
+F 3 "" H 2450 2950 50  0001 C CNN
+	1    2450 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5FA689B7
+P 2450 3050
+F 0 "#PWR0104" H 2450 2900 50  0001 C CNN
+F 1 "+3.3V" V 2465 3178 50  0000 L CNN
+F 2 "" H 2450 3050 50  0001 C CNN
+F 3 "" H 2450 3050 50  0001 C CNN
+	1    2450 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5FA760D6
+P 2450 3450
+F 0 "#PWR0105" H 2450 3200 50  0001 C CNN
+F 1 "GND" V 2455 3322 50  0000 R CNN
+F 2 "" H 2450 3450 50  0001 C CNN
+F 3 "" H 2450 3450 50  0001 C CNN
+	1    2450 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5FA816AD
+P 3750 3950
+F 0 "#PWR0106" H 3750 3700 50  0001 C CNN
+F 1 "GND" V 3755 3822 50  0000 R CNN
+F 2 "" H 3750 3950 50  0001 C CNN
+F 3 "" H 3750 3950 50  0001 C CNN
+	1    3750 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5FA826A7
+P 4250 3950
+F 0 "#PWR0107" H 4250 3700 50  0001 C CNN
+F 1 "GND" V 4255 3822 50  0000 R CNN
+F 2 "" H 4250 3950 50  0001 C CNN
+F 3 "" H 4250 3950 50  0001 C CNN
+	1    4250 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0111
+U 1 1 5FA9178F
+P 4250 3850
+F 0 "#PWR0111" H 4250 3700 50  0001 C CNN
+F 1 "+3.3V" V 4250 4000 50  0000 L CNN
+F 2 "" H 4250 3850 50  0001 C CNN
+F 3 "" H 4250 3850 50  0001 C CNN
+	1    4250 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+1V2 #PWR0112
+U 1 1 5FA91795
+P 4250 3750
+F 0 "#PWR0112" H 4250 3600 50  0001 C CNN
+F 1 "+1V2" V 4250 3900 50  0000 L CNN
+F 2 "" H 4250 3750 50  0001 C CNN
+F 3 "" H 4250 3750 50  0001 C CNN
+	1    4250 3750
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:+2V8 #PWR0113
+U 1 1 5FA9179B
+P 4250 3650
+F 0 "#PWR0113" H 4250 3500 50  0001 C CNN
+F 1 "+2V8" V 4250 3800 50  0000 L CNN
+F 2 "" H 4250 3650 50  0001 C CNN
+F 3 "" H 4250 3650 50  0001 C CNN
+	1    4250 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0108
+U 1 1 5FA86978
+P 3750 3850
+F 0 "#PWR0108" H 3750 3700 50  0001 C CNN
+F 1 "+3.3V" V 3750 4000 50  0000 L CNN
+F 2 "" H 3750 3850 50  0001 C CNN
+F 3 "" H 3750 3850 50  0001 C CNN
+	1    3750 3850
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+2V8 #PWR0110
+U 1 1 5FA8775F
+P 3750 3650
+F 0 "#PWR0110" H 3750 3500 50  0001 C CNN
+F 1 "+2V8" V 3750 3800 50  0000 L CNN
+F 2 "" H 3750 3650 50  0001 C CNN
+F 3 "" H 3750 3650 50  0001 C CNN
+	1    3750 3650
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+1V2 #PWR0109
+U 1 1 5FA86F6C
+P 3750 3750
+F 0 "#PWR0109" H 3750 3600 50  0001 C CNN
+F 1 "+1V2" V 3750 3900 50  0000 L CNN
+F 2 "" H 3750 3750 50  0001 C CNN
+F 3 "" H 3750 3750 50  0001 C CNN
+	1    3750 3750
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
