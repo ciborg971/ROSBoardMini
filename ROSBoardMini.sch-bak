@@ -751,7 +751,7 @@ Text Label 7400 3400 2    50   ~ 0
 IO1
 Text Label 7400 3300 2    50   ~ 0
 IO0
-Text Label 9250 10600 2    50   ~ 0
+Text Label 9250 9300 2    50   ~ 0
 IO5
 Text Label 9250 8900 2    50   ~ 0
 IO4
@@ -763,13 +763,13 @@ Text Label 9250 8600 2    50   ~ 0
 IO1
 Text Label 9250 8500 2    50   ~ 0
 IO0
-Text Label 9250 9700 2    50   ~ 0
+Text Label 9250 10600 2    50   ~ 0
 SPI_CS1
-Text Label 9250 9300 2    50   ~ 0
+Text Label 9250 9600 2    50   ~ 0
 SPI_MOSI
 Text Label 9250 9500 2    50   ~ 0
 SPI_MISO
-Text Label 9250 9600 2    50   ~ 0
+Text Label 9250 9700 2    50   ~ 0
 SPI_SCK
 Text Label 12650 2200 2    50   ~ 0
 GPIO8

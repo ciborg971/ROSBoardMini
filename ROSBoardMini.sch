@@ -175,23 +175,10 @@ F 3 "" H 1800 9950 50  0001 C CNN
 	1    1800 9950
 	0    -1   -1   0   
 $EndComp
-$Comp
-L ROSBoardMini-rescue:R-Device R1
-U 1 1 5F9B5B40
-P 1250 10150
-F 0 "R1" V 1200 10400 50  0000 C CNN
-F 1 "1K" V 1250 10150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" V 1180 10150 50  0001 C CNN
-F 3 "~" H 1250 10150 50  0001 C CNN
-	1    1250 10150
-	0    1    1    0   
-$EndComp
 Text Label 1800 10050 2    50   ~ 0
 CSI0_HSYNC
 Text Label 1800 10250 2    50   ~ 0
 CSI0_VSYNC
-Wire Wire Line
-	1400 10150 1800 10150
 Text Label 1800 10650 2    50   ~ 0
 I2C0_SDA
 Text Label 1800 10450 2    50   ~ 0
@@ -306,23 +293,10 @@ F 3 "" H 4050 9950 50  0001 C CNN
 	1    4050 9950
 	0    -1   -1   0   
 $EndComp
-$Comp
-L ROSBoardMini-rescue:R-Device R2
-U 1 1 5F9CCEDD
-P 3500 10150
-F 0 "R2" V 3450 10400 50  0000 C CNN
-F 1 "1K" V 3500 10150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" V 3430 10150 50  0001 C CNN
-F 3 "~" H 3500 10150 50  0001 C CNN
-	1    3500 10150
-	0    1    1    0   
-$EndComp
 Text Label 4050 10050 2    50   ~ 0
 CSI1_HSYNC
 Text Label 4050 10250 2    50   ~ 0
 CSI1_VSYNC
-Wire Wire Line
-	3650 10150 4050 10150
 Text Label 4050 10650 2    50   ~ 0
 I2C1_SDA
 Text Label 4050 10450 2    50   ~ 0
@@ -438,23 +412,10 @@ F 3 "" H 6250 9950 50  0001 C CNN
 	1    6250 9950
 	0    -1   -1   0   
 $EndComp
-$Comp
-L ROSBoardMini-rescue:R-Device R3
-U 1 1 5F9D7038
-P 5700 10150
-F 0 "R3" V 5650 10400 50  0000 C CNN
-F 1 "1K" V 5700 10150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" V 5630 10150 50  0001 C CNN
-F 3 "~" H 5700 10150 50  0001 C CNN
-	1    5700 10150
-	0    1    1    0   
-$EndComp
 Text Label 6250 10050 2    50   ~ 0
 CSI2_HSYNC
 Text Label 6250 10250 2    50   ~ 0
 CSI2_VSYNC
-Wire Wire Line
-	5850 10150 6250 10150
 Text Label 6250 10650 2    50   ~ 0
 I2C2_SDA
 Text Label 6250 10450 2    50   ~ 0
@@ -765,9 +726,9 @@ Text Label 9250 8500 2    50   ~ 0
 IO0
 Text Label 9250 10600 2    50   ~ 0
 SPI_CS1
-Text Label 9250 9500 2    50   ~ 0
-SPI_MOSI
 Text Label 9250 9600 2    50   ~ 0
+SPI_MOSI
+Text Label 9250 9500 2    50   ~ 0
 SPI_MISO
 Text Label 9250 9700 2    50   ~ 0
 SPI_SCK
@@ -2506,58 +2467,19 @@ F 3 "" H 9250 9400 50  0001 C CNN
 	1    9250 9400
 	0    1    1    0   
 $EndComp
-Text Label 5550 10350 2    50   ~ 0
+Text Label 6250 10350 2    50   ~ 0
 CSI_RST
-$Comp
-L ROSBoardMini-rescue:R-Device R6
-U 1 1 5FBAB627
-P 5700 10350
-F 0 "R6" V 5650 10600 50  0000 C CNN
-F 1 "1K" V 5700 10350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" V 5630 10350 50  0001 C CNN
-F 3 "~" H 5700 10350 50  0001 C CNN
-	1    5700 10350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6250 10350 5850 10350
-Text Label 3350 10350 2    50   ~ 0
+Text Label 4050 10350 2    50   ~ 0
 CSI_RST
-$Comp
-L ROSBoardMini-rescue:R-Device R5
-U 1 1 5FBC3625
-P 3500 10350
-F 0 "R5" V 3450 10600 50  0000 C CNN
-F 1 "1K" V 3500 10350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" V 3430 10350 50  0001 C CNN
-F 3 "~" H 3500 10350 50  0001 C CNN
-	1    3500 10350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4050 10350 3650 10350
 Text Label 7950 3800 3    50   ~ 0
 CSI_RST
-Text Label 1100 10350 2    50   ~ 0
+Text Label 1800 10350 2    50   ~ 0
 CSI_RST
-$Comp
-L ROSBoardMini-rescue:R-Device R4
-U 1 1 5FBD8556
-P 1250 10350
-F 0 "R4" V 1200 10600 50  0000 C CNN
-F 1 "1K" V 1250 10350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" V 1180 10350 50  0001 C CNN
-F 3 "~" H 1250 10350 50  0001 C CNN
-	1    1250 10350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1800 10350 1400 10350
-Text Label 5550 10150 2    50   ~ 0
+Text Label 6250 10150 2    50   ~ 0
 CSI_PWDN
-Text Label 3350 10150 2    50   ~ 0
+Text Label 4050 10150 2    50   ~ 0
 CSI_PWDN
-Text Label 1100 10150 2    50   ~ 0
+Text Label 1800 10150 2    50   ~ 0
 CSI_PWDN
 Text Label 8050 3800 3    50   ~ 0
 CSI_PWDN
