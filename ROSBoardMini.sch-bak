@@ -225,28 +225,6 @@ CSI0_MCLK
 Text Label 1800 9750 2    50   ~ 0
 CSI0_D7
 $Comp
-L ROSBoardMini-rescue:C-Device C1
-U 1 1 5F9BDA0E
-P 600 9050
-F 0 "C1" H 715 9096 50  0000 L CNN
-F 1 "15pF" H 715 9005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 638 8900 50  0001 C CNN
-F 3 "~" H 600 9050 50  0001 C CNN
-	1    600  9050
-	1    0    0    -1  
-$EndComp
-$Comp
-L ROSBoardMini-rescue:GND-power #PWR0108
-U 1 1 5F9BE39C
-P 600 9200
-F 0 "#PWR0108" H 600 8950 50  0001 C CNN
-F 1 "GND" H 605 9027 50  0000 C CNN
-F 2 "" H 600 9200 50  0001 C CNN
-F 3 "" H 600 9200 50  0001 C CNN
-	1    600  9200
-	1    0    0    -1  
-$EndComp
-$Comp
 L ROSBoardMini-rescue:C-Device C2
 U 1 1 5F9BFC80
 P 600 10550
@@ -279,8 +257,6 @@ F 3 "" H 600 10400 50  0001 C CNN
 	1    600  10400
 	1    0    0    -1  
 $EndComp
-Text Label 600  8900 0    50   ~ 0
-CSI0_PCLK
 NoConn ~ 4050 8650
 NoConn ~ 4050 10850
 Text Label 4050 8750 2    50   ~ 0
@@ -380,28 +356,6 @@ CSI1_MCLK
 Text Label 4050 9750 2    50   ~ 0
 CSI1_D7
 $Comp
-L ROSBoardMini-rescue:C-Device C3
-U 1 1 5F9CCF01
-P 2850 9050
-F 0 "C3" H 2965 9096 50  0000 L CNN
-F 1 "15pF" H 2965 9005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2888 8900 50  0001 C CNN
-F 3 "~" H 2850 9050 50  0001 C CNN
-	1    2850 9050
-	1    0    0    -1  
-$EndComp
-$Comp
-L ROSBoardMini-rescue:GND-power #PWR0118
-U 1 1 5F9CCF07
-P 2850 9200
-F 0 "#PWR0118" H 2850 8950 50  0001 C CNN
-F 1 "GND" H 2855 9027 50  0000 C CNN
-F 2 "" H 2850 9200 50  0001 C CNN
-F 3 "" H 2850 9200 50  0001 C CNN
-	1    2850 9200
-	1    0    0    -1  
-$EndComp
-$Comp
 L ROSBoardMini-rescue:C-Device C4
 U 1 1 5F9CCF0D
 P 2850 10550
@@ -434,8 +388,6 @@ F 3 "" H 2850 10400 50  0001 C CNN
 	1    2850 10400
 	1    0    0    -1  
 $EndComp
-Text Label 2850 8900 0    50   ~ 0
-CSI1_PCLK
 NoConn ~ 6250 8550
 NoConn ~ 6250 8650
 NoConn ~ 6250 10850
@@ -536,28 +488,6 @@ CSI2_MCLK
 Text Label 6250 9750 2    50   ~ 0
 CSI2_D7
 $Comp
-L ROSBoardMini-rescue:C-Device C5
-U 1 1 5F9D705C
-P 5050 9050
-F 0 "C5" H 5165 9096 50  0000 L CNN
-F 1 "15pF" H 5165 9005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5088 8900 50  0001 C CNN
-F 3 "~" H 5050 9050 50  0001 C CNN
-	1    5050 9050
-	1    0    0    -1  
-$EndComp
-$Comp
-L ROSBoardMini-rescue:GND-power #PWR0128
-U 1 1 5F9D7062
-P 5050 9200
-F 0 "#PWR0128" H 5050 8950 50  0001 C CNN
-F 1 "GND" H 5055 9027 50  0000 C CNN
-F 2 "" H 5050 9200 50  0001 C CNN
-F 3 "" H 5050 9200 50  0001 C CNN
-	1    5050 9200
-	1    0    0    -1  
-$EndComp
-$Comp
 L ROSBoardMini-rescue:C-Device C6
 U 1 1 5F9D7068
 P 5050 10550
@@ -590,8 +520,6 @@ F 3 "" H 5050 10400 50  0001 C CNN
 	1    5050 10400
 	1    0    0    -1  
 $EndComp
-Text Label 5050 8900 0    50   ~ 0
-CSI2_PCLK
 Text Label 8200 1500 1    50   ~ 0
 CSI0_D2
 Text Label 8300 1500 1    50   ~ 0
@@ -786,7 +714,7 @@ Text Label 13150 3200 0    50   ~ 0
 SPI_CS0
 Text Label 13150 3300 0    50   ~ 0
 SPI_CS1
-Text Label 10150 4350 2    50   ~ 0
+Text Label 8950 3800 3    50   ~ 0
 SPI_CS0
 Text Label 12650 2900 2    50   ~ 0
 P2_RST
@@ -803,13 +731,13 @@ P2_TX
 $Comp
 L ROSBoardMini-rescue:+BATT-power #PWR0137
 U 1 1 5FA1657C
-P 10150 4250
-F 0 "#PWR0137" H 10150 4100 50  0001 C CNN
-F 1 "+BATT" V 10165 4378 50  0000 L CNN
-F 2 "" H 10150 4250 50  0001 C CNN
-F 3 "" H 10150 4250 50  0001 C CNN
-	1    10150 4250
-	0    -1   -1   0   
+P 8150 3800
+F 0 "#PWR0137" H 8150 3650 50  0001 C CNN
+F 1 "+BATT" V 8165 3928 50  0000 L CNN
+F 2 "" H 8150 3800 50  0001 C CNN
+F 3 "" H 8150 3800 50  0001 C CNN
+	1    8150 3800
+	-1   0    0    1   
 $EndComp
 Text Label 7850 3800 3    50   ~ 0
 IO5
@@ -847,25 +775,25 @@ Text Label 12650 2200 2    50   ~ 0
 GPIO8
 Text Label 12650 2300 2    50   ~ 0
 GPIO9
-Text Label 9250 9000 2    50   ~ 0
+Text Label 9250 9200 2    50   ~ 0
 GPIO8
 Text Label 9250 9100 2    50   ~ 0
 GPIO9
 Text Label 13150 2600 0    50   ~ 0
 GPIO1
-Text Label 9250 9200 2    50   ~ 0
+Text Label 9250 9000 2    50   ~ 0
 GPIO1
 Text Label 13150 3900 0    50   ~ 0
 GPIO28
-Text Label 9250 10200 2    50   ~ 0
+Text Label 9250 10300 2    50   ~ 0
 GPIO28
 Text Label 13150 4000 0    50   ~ 0
 GPIO29
-Text Label 9250 10300 2    50   ~ 0
+Text Label 9250 10400 2    50   ~ 0
 GPIO29
 Text Label 12650 3800 2    50   ~ 0
 GPIO24
-Text Label 9250 10400 2    50   ~ 0
+Text Label 9250 10200 2    50   ~ 0
 GPIO24
 Text Label 12650 3700 2    50   ~ 0
 GPIO23
@@ -2474,17 +2402,17 @@ Text Label 2550 1850 0    50   ~ 0
 PSRAM_D2
 Text Label 2550 1950 0    50   ~ 0
 PSRAM_D3
-Text Label 8550 3800 3    50   ~ 0
-PSRAM_CE
 Text Label 8450 3800 3    50   ~ 0
+PSRAM_CE
+Text Label 8350 3800 3    50   ~ 0
 PSRAM_SCLK
-Text Label 8950 3800 3    50   ~ 0
-PSRAM_D0
 Text Label 8850 3800 3    50   ~ 0
-PSRAM_D1
-Text Label 8650 3800 3    50   ~ 0
-PSRAM_D3
+PSRAM_D0
 Text Label 8750 3800 3    50   ~ 0
+PSRAM_D1
+Text Label 8550 3800 3    50   ~ 0
+PSRAM_D3
+Text Label 8650 3800 3    50   ~ 0
 PSRAM_D2
 $Comp
 L ROSBoardMini-rescue:C-Device C31
@@ -2608,7 +2536,7 @@ F 3 "~" H 3500 10350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4050 10350 3650 10350
-Text Label 9300 4350 0    50   ~ 0
+Text Label 7950 3800 3    50   ~ 0
 CSI_RST
 Text Label 1100 10350 2    50   ~ 0
 CSI_RST
@@ -2631,7 +2559,8 @@ Text Label 3350 10150 2    50   ~ 0
 CSI_PWDN
 Text Label 1100 10150 2    50   ~ 0
 CSI_PWDN
-Text Label 9300 4250 0    50   ~ 0
+Text Label 8050 3800 3    50   ~ 0
 CSI_PWDN
 NoConn ~ 13150 3800
+NoConn ~ 8250 3800
 $EndSCHEMATC
