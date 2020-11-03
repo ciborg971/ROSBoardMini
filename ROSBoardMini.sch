@@ -1794,12 +1794,12 @@ $EndComp
 $Comp
 L ROSBoardMini-rescue:C-Device C14
 U 1 1 5FB9C3CF
-P 3450 5650
-F 0 "C14" H 3565 5696 50  0000 L CNN
-F 1 "4.7uF" H 3565 5605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3488 5500 50  0001 C CNN
-F 3 "~" H 3450 5650 50  0001 C CNN
-	1    3450 5650
+P 3900 5650
+F 0 "C14" H 4015 5696 50  0000 L CNN
+F 1 "4.7uF" H 4015 5605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3938 5500 50  0001 C CNN
+F 3 "~" H 3900 5650 50  0001 C CNN
+	1    3900 5650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1814,17 +1814,6 @@ F 3 "" H 4350 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ROSBoardMini-rescue:C-Device C16
-U 1 1 5FBA5477
-P 3900 5650
-F 0 "C16" H 4015 5696 50  0000 L CNN
-F 1 "4.7uF" H 4015 5605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3938 5500 50  0001 C CNN
-F 3 "~" H 3900 5650 50  0001 C CNN
-	1    3900 5650
-	1    0    0    -1  
-$EndComp
-$Comp
 L ROSBoardMini-rescue:C-Device C19
 U 1 1 5FBA75EC
 P 4350 5650
@@ -1836,49 +1825,18 @@ F 3 "~" H 4350 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ROSBoardMini-rescue:C-Device C21
-U 1 1 5FBA75F2
+L ROSBoardMini-rescue:C-Device C23
+U 1 1 5FBAAD71
 P 4800 5650
-F 0 "C21" H 4915 5696 50  0000 L CNN
+F 0 "C23" H 4915 5696 50  0000 L CNN
 F 1 "4.7uF" H 4915 5605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4838 5500 50  0001 C CNN
 F 3 "~" H 4800 5650 50  0001 C CNN
 	1    4800 5650
 	1    0    0    -1  
 $EndComp
-$Comp
-L ROSBoardMini-rescue:C-Device C23
-U 1 1 5FBAAD71
-P 5250 5650
-F 0 "C23" H 5365 5696 50  0000 L CNN
-F 1 "4.7uF" H 5365 5605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5288 5500 50  0001 C CNN
-F 3 "~" H 5250 5650 50  0001 C CNN
-	1    5250 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5250 5500 4800 5500
-Connection ~ 3900 5500
-Wire Wire Line
-	3900 5500 3450 5500
 Connection ~ 4350 5500
-Wire Wire Line
-	4350 5500 3900 5500
-Connection ~ 4800 5500
-Wire Wire Line
-	4800 5500 4350 5500
-Wire Wire Line
-	3450 5800 3900 5800
-Connection ~ 3900 5800
-Wire Wire Line
-	3900 5800 4350 5800
 Connection ~ 4350 5800
-Wire Wire Line
-	4350 5800 4800 5800
-Connection ~ 4800 5800
-Wire Wire Line
-	4800 5800 5250 5800
 $Comp
 L ROSBoardMini-rescue:+1V8-power #PWR0191
 U 1 1 5FBB79D8
@@ -2485,4 +2443,12 @@ Text Label 8050 3800 3    50   ~ 0
 CSI_PWDN
 NoConn ~ 13150 3800
 NoConn ~ 8250 3800
+Wire Wire Line
+	4350 5500 4800 5500
+Wire Wire Line
+	4350 5800 4800 5800
+Wire Wire Line
+	3900 5500 4350 5500
+Wire Wire Line
+	3900 5800 4350 5800
 $EndSCHEMATC
